@@ -1,6 +1,6 @@
 import NavBar from "./Components/NavBar"
 import HomePage from "./Components/HomePage";
-import TurniejePage from "./Components/TurniejePage";
+import TurniejPage from "./Components/TurniejPage";
 import GameJamPage from "./Components/GameJamPage";
 import AtrakcjePage from "./Components/AtrakcjePage";
 import HarmonogramPage from "./Components/HarmonogramPage";
