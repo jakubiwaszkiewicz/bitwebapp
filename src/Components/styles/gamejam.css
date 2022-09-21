@@ -1,22 +1,22 @@
-#noc-gier {
+#game-jam {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #dee2e6;
 }
-.noc-container {
+.game-container {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     gap: 4rem;
 }
-.noc-title h3 {
+.game-title h3 {
     font-size: 2.5rem;
     color: #dee2e6;
     margin: 0;
 }
 
-.noc-content-cont {
+.game-content-cont {
     display: flex;
     flex-flow: row wrap;
     width: 90%;
@@ -26,14 +26,52 @@
     gap: 6%;
 }
 
-.noc-cont-text {
+.game-cont-cont{
     width: 47%;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.game-cont-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.neon-button-blue {
+    background: none;
+    color: white;
+    font-size: 1.25rem;
+    border: rgba(200, 255, 255, 3) solid 2px;
+    border-radius: 2rem;
+    box-shadow:
+            0 0 0.5rem rgba(76, 239, 216, 3),
+            0 0 1rem rgba(76, 239, 216, 7);
+    padding: 1rem;
+    transition: box-shadow 0.5s ease-out;
+    width: 10rem;
+}
+
+.neon-button-blue:hover{
+    border: #FFC6E2 solid 2px;
+    box-shadow:
+            0 0 0.3rem #FFC6E2,
+            0 0 1rem rgba(237, 30, 121, 5),
+            0 0 2rem rgba(237, 30, 121, 15);
+
+}
+
+.game-cont-text {
     border: rgb(76, 239, 216) solid 2px;
     padding: 1rem;
     position: relative;
 }
 
-.noc-cont-text p {
+.game-cont-text p {
     text-align: center;
     display: block;
     position: relative;
@@ -42,25 +80,23 @@
     z-index: 5;
 }
 
-.noc-cont-text::before,
-.noc-cont-text::after {
+.game-cont-text::before,
+.game-cont-text::after {
     content: '';
     position: absolute;
     background: #000;
-
 }
 
-.noc-cont-text::before {
+.game-cont-text::before {
     width: calc(100% + 50px + 4px - 120px);
     height: calc(100% + 4px);
     top: -2px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-
 }
 
-.noc-cont-text::after {
+.game-cont-text::after {
     height: calc(100% + 50px + 4px - 120px);
     width: calc(100% + 4px);
     left: -2px;
@@ -69,7 +105,7 @@
     z-index: 1;
 }
 
-.noc-cont-img {
+.game-cont-img {
     width: 47%;
     border: #d91969 solid 2px;
     animation: flickerRose 1s infinite alternate;
@@ -77,7 +113,7 @@
 
 }
 
-.noc-cont-img img {
+.game-cont-img img {
     width: 100%;
     border-radius: 0.3rem;
 }

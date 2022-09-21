@@ -1,4 +1,4 @@
-import './styles/HomePage.css';
+import './styles/homepage.css';
 
 export default function HomePage () {
   return (
@@ -10,7 +10,7 @@ export default function HomePage () {
           <span className="roseNeonText2 NeonText">FESTIVAL</span>
         </div>
         <div className="text">8 - 11.12.2022 Budynek SKS PWR</div>
-        <div><button className="neon-button">Dołącz do wydarzenia</button></div>
+        <div><button className="home-neon-button">Dołącz do wydarzenia</button></div>
       </div>
     </section>
   )

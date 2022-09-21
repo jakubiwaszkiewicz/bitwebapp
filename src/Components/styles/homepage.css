@@ -58,7 +58,7 @@
     font-family: "Neoneon", sans-serif;
     color: rgb(163, 255, 231);
 }
-.neon-button {
+.home-neon-button {
     background: none;
     color: white;
     font-size: 1.25rem;
@@ -67,29 +67,28 @@
     box-shadow:
             0 0 0.3rem #FFC6E2,
             0 0 1rem rgba(237, 30, 121, 5),
-            0 0 2rem rgba(237, 30, 121, 15),
-            0 0 8rem rgba(237, 30, 121, 5);
+            0 0 2rem rgba(237, 30, 121, 15);
     padding: 1rem;
     transition: box-shadow 0.5s ease-out;
 }
 @media screen and (max-width: 400px) {
-    .neon-button {
+    .home-neon-button {
         margin-top: 3rem;
     }
 }
 @media screen and (max-width: 600px) {
-    .neon-button {
+    .home-neon-button {
         font-size: 1rem;
         padding: 0.75rem;
     }
 }
 
-.neon-button:hover{
+.home-neon-button:hover{
     border: rgb(76, 239, 216) solid 2px;
     box-shadow:
-            0 0 1rem rgba(76, 239, 216, 5),
-            0 0 2rem rgba(76, 239, 216, 10),
-            0 0 5rem rgba(76, 239, 216, 10);
+            0 0 1rem rgba(76, 239, 216, 3),
+            0 0 2rem rgba(76, 239, 216, 7);
+
 }
 
 @keyframes flickerBlue {
