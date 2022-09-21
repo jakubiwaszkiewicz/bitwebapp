@@ -1,0 +1,100 @@
+#noc-gier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dee2e6;
+}
+.noc-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 4rem;
+}
+.noc-title h3 {
+    font-size: 2.5rem;
+    color: #dee2e6;
+    margin: 0;
+}
+
+.noc-content-cont {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+
+.noc-cont-text {
+    width: 47%;
+    border: rgb(76, 239, 216) solid 2px;
+    padding: 1rem;
+    position: relative;
+}
+
+.noc-cont-text p {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+.noc-cont-text::before,
+.noc-cont-text::after {
+    content: '';
+    position: absolute;
+    background: #000;
+}
+
+.noc-cont-text::before {
+    width: calc(100% + 50px + 4px - 120px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.noc-cont-text::after {
+    height: calc(100% + 50px + 4px - 120px);
+    width: calc(100% + 4px);
+    left: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.noc-cont-img {
+    width: 47%;
+    border: #d91969 solid 2px;
+    animation: flickerRose 1s infinite alternate;
+    border-radius: 0.3rem;
+
+}
+
+.noc-cont-img img {
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 400px) {
+    .neon-button {
+        margin-top: 3rem;
+    }
+}
+
+@keyframes flickerRose {
+    0%, 53%, 75% {
+        box-shadow:
+                0 0 0.2rem rgba(237, 30, 121, 4),
+                0 0 0.5rem rgba(237, 30, 121, 4);
+    }
+    34%, 60%, 100% {
+        box-shadow:
+                0 0 0.2rem rgba(237, 30, 121, 4),
+                0 0 0.6rem rgba(237, 30, 121, 2);
+    }
+}

@@ -22,14 +22,13 @@ export default function NavBar () {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
               <Nav className="justify-content-end fs-5">
-                <Nav.Link href="#turnieje">Turnieje</Nav.Link>
-                <Nav.Link href="#game-jam">Game Jam</Nav.Link>
                 <Nav.Link href="#noc-gier">Noc Gier</Nav.Link>
+                <Nav.Link href="#turniej">Turniej</Nav.Link>
+                <Nav.Link href="#game-jam">Game Jam</Nav.Link>
                 <Nav.Link href="#warsztaty">Warsztaty</Nav.Link>
                 <Nav.Link href="#harmonogram">Harmonogram</Nav.Link>
                 <Nav.Link href="#o-nas">O nas</Nav.Link>
                 <Nav.Link href="#partnerzy">Partnerzy</Nav.Link>
-                <Nav.Link href="#galeria">Galeria</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
