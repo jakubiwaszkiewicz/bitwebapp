@@ -1,5 +1,6 @@
 import klawa from "../pictures/klawiaturka.jpeg";
 import "./styles/turniej.css"
+import "./styles/mediaqueriesftpage.css"
 
 export default function TurniejPage () {
   return (
