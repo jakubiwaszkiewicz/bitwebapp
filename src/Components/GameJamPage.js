@@ -19,19 +19,12 @@ export default function GameJamPage () {
                             Praesent iaculis, mi ut scelerisque ultrices, lectus orci lacinia arcu,
                             vel congue lorem nunc feugiat odio. Vestibulum id pellentesque dolor,
                             in ullamcorper nunc. Maecenas nec magna a lorem condimentum varius vitae id eros.
-                            Quisque at libero sem. Vestibulum finibus nisl vitae mollis
-                            Aenean et tristique enim, mattis maximus erat. Integer tincidunt justo dui,
-                            hendrerit eleifend purus dignissim vitae. Nulla aliquam lacinia eros, eu congue mi euismod at.
                         </p>
                             <br />
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla venenatis eget quam eget dictum.
                             Pellentesque rhoncus vulputate vestibulum. In gravida quam at velit faucibus pretium.
-                            Ut dictum aliquet justo porttitor ornare. Praesent a dui vel sem bibendum lobortis.
-                            Ut posuere, urna vitae pretium venenatis, nisi dui condimentum erat,
-                            non sodales ante urna id urna. Quisque ipsum diam, accumsan non ultrices id,
-                            facilisis quis ipsum.
                         </p>
                     </div>
                     <div className="game-cont-btn">
