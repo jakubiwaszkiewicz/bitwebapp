@@ -12,20 +12,31 @@ export default function NocGierPage () {
             <div className="noc-content-cont">
                 <div className="noc-cont-text">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          In tincidunt vel elit a faucibus. Nunc in metus nec mi condimentum luctus.
-                          Praesent iaculis, mi ut scelerisque ultrices, lectus orci lacinia arcu,
-                          vel congue lorem nunc feugiat odio. Vestibulum id pellentesque dolor,
-                          in ullamcorper nunc. Maecenas nec magna a lorem condimentum varius vitae id eros.
-                          Quisque at libero sem. Vestibulum finibus nisl vitae mollis
-                          Aenean et tristique enim, mattis maximus erat. Integer tincidunt justo dui,
-                          hendrerit eleifend purus dignissim vitae. Nulla aliquam lacinia eros, eu congue mi euismod at.
+                          Nie tylko turniejem LoL-a BIT żyje. Przyjdź do SKS-u i daj się wciągnąć do świata rozrywki.
+                          Czekają na Ciebie:
+                        </p>
+                        <div className="noc-list-frame">
+                          <p>
+                            <ul className="noc-list">
+                              <li>planszówki,</li>
+                              <li>konsole,</li>
+                              <li>FIFA,</li>
+                              <li>TFT i wiele, wiele innych.</li>
+                            </ul>
+                          </p>
+                        </div>
+                        <p>
+                          Oczywiście nie mogłoby zabraknąć strefy retro,
+                          na której znajdziesz kultowe automaty do gier, czy stare konsole. Zdajemy sobie sprawę,
+                          że to duża dawka wrażeń jak na jeden raz, dlatego przygotowaliśmy też specjalną strefę chillu.
+                          Czy wieczór może być lepszy? Zabierz swoich znajomych i baw się z nami!
                         </p>
                 </div>
                 <div className="noc-cont-img">
                   <img src={Vr} alt="ziomek z vrem"></img>
                 </div>
             </div>
+          <hr/>
         </div>
     </section>
   )

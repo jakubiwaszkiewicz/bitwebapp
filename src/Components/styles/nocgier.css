@@ -100,3 +100,19 @@
                 0 0 0.6rem rgba(237, 30, 121, 2);
     }
 }
+
+.noc-list {
+    color: white;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.noc-list-frame {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+hr {
+    
+}

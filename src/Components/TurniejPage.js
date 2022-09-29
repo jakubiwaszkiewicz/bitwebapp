@@ -17,14 +17,11 @@ export default function TurniejPage () {
                 <div className="tur-cont-cont">
                     <div className="tur-cont-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            In tincidunt vel elit a faucibus. Nunc in metus nec mi condimentum luctus.
-                            Praesent iaculis, mi ut scelerisque ultrices, lectus orci lacinia arcu,
-                            vel congue lorem nunc feugiat odio. Vestibulum id pellentesque dolor,
-                            in ullamcorper nunc. Maecenas nec magna a lorem condimentum varius vitae id eros.
-                            Quisque at libero sem. Vestibulum finibus nisl vitae mollis
-                            Aenean et tristique enim, mattis maximus erat. Integer tincidunt justo dui,
-                            hendrerit eleifend purus dignissim vitae. Nulla aliquam lacinia eros, eu congue mi euismod at.
+                          W nocy z 10 na 11 grudnia
+                          Po długich godzinach spędzonych przed komputerem nadszedł czas na finałowe starcie!
+                          Już 10 grudnia, w SKS-ie, odbędzie się pojedynek prawdziwych e-sportowych gigantów.
+                          Która drużyna okaże się mistrzem turnieju League of Legends? Dowiesz się oglądając naszego streama.
+                          Emocje sięgną zenitu!
                         </p>
                     </div>
                     <div className="tur-cont-btn">
