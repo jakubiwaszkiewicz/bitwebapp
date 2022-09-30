@@ -4,7 +4,13 @@ import "./styles/warsztaty.css"
 import data from "./data.js"*/
 
 export default function WarsztatyPage () {
-      /*const Contents = data.map()*/
+  /*const Data = data.map((x) => {
+    return (
+      <CardWar
+        key = {x.id}
+        item = {x}
+      />
+    );})*/
   return (
     <section id="warsztaty">
         <div className="war-container">

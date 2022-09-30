@@ -2,6 +2,8 @@ import "./styles/harmonogram.css"
 import "./styles/tabela.css"
 
 export default function HarmonogramPage () {
+
+  let day1 = "{Strefa retro, Turniej Fify}"
   return (
     <section id="harmonogram">
       <div className="harmonogram-container">

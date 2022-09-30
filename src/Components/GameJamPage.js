@@ -15,10 +15,12 @@ export default function GameJamPage () {
                       <div className="game-cont-text">
                           <p>
                             09 - 10.12.2022
-
-                            Gdy ktoś pyta o silnik, myślisz o Unity? Interesujesz się mechaniką gier? A może po prostu chcesz w końcu zagrać w gierkę, która spełni Twoje oczekiwania? Nie czekaj na kolejne premiery – zacznij tworzyć po swojemu! Na BIT Jamie możesz puścić wodze fantazji. Byle szybko, bo masz tylko 24 godziny. Zbierz maksymalnie 4-osobową ekipę i zapisz się na wydarzenie. Widzimy się 9 grudnia w SKS-ie.
+                            Gdy ktoś pyta o silnik, myślisz o Unity? Interesujesz się mechaniką gier?
+                            A może po prostu chcesz w końcu zagrać w gierkę, która spełni Twoje oczekiwania?
+                            Nie czekaj na kolejne premiery – zacznij tworzyć po swojemu!
+                            Na BIT Jamie możesz puścić wodze fantazji. Byle szybko, bo masz tylko 24 godziny.
+                            Zbierz maksymalnie 4-osobową ekipę i zapisz się na wydarzenie. Widzimy się 9 grudnia w SKS-ie.
                             PS wiesz, że SUPERHOT też powstało na game jamie?
-
                           </p>
                       </div>
                       <div className="game-cont-btn">
