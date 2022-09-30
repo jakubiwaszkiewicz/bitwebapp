@@ -113,6 +113,6 @@
     margin-top: 1rem;
 }
 
-hr {
-    
+hr.line {
+    border-top: 2px solid white;
 }

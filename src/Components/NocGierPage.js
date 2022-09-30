@@ -36,7 +36,7 @@ export default function NocGierPage () {
                   <img src={Vr} alt="ziomek z vrem"></img>
                 </div>
             </div>
-          <hr/>
+          <hr className="line"/>
         </div>
     </section>
   )

@@ -1,7 +1,7 @@
 import Vr from "../pictures/vr.webp";
 import "./styles/warsztaty.css"
-import Content from "./Content"
-import data from "./data"
+/*import CardWar from "./CardWar"
+import data from "./data.js"*/
 
 export default function WarsztatyPage () {
       /*const Contents = data.map()*/
@@ -18,7 +18,6 @@ export default function WarsztatyPage () {
               Zapisz się na nasze warsztaty, które organizujemy wspólnie z najlepszymi fachowcami w branży i
               zapewnij sobie wejściówkę do świata IT.
             </p>
-            {/*<Content />*/}
           </div>
         </div>
     </section>
