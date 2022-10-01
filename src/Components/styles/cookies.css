@@ -1,16 +1,19 @@
 #cookies {
     position: fixed;
     width: 100%;
-    transition: opacity 5s ease-out, transform 1s ease-out;
+
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition-delay: 0.25s;
     left: 0;
     bottom: 0;
-    z-index: 5;
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 1px solid rgb(237, 30, 121);
     box-shadow: 0 0 1rem rgb(237, 30, 121);
     animation: flickerBorderRose 1s infinite alternate;
+    background-color: black;
 }
 .clicked {
     opacity: 0;
@@ -19,12 +22,13 @@
 #cookies button {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 15px;
     background: none;
     border: none;
     box-shadow: none;
     color: white;
     font-size: 2rem;
+    padding: 10px 0;
 }
 #cookies p {
     max-width: 1200px;
@@ -34,14 +38,43 @@
     color: white;
 }
 .btn-bar {
-    width: 20px;
-    border: 1px solid white;
+    width: 30px;
+    border: 2px solid rgb(237, 30, 121);
+    border-radius: 5px;
+}
+.bar1 {
+    transform: rotate(-45deg);
+}
+.bar2 {
+    transform: translateY(-4px) rotate(45deg);
 }
 /*.bar1 {
     transform: rotateY(-45deg);
 }*/
 
 @keyframes flickerBorderRose {
+    0%, 53%, 75% {
+        border-shadow:
+                0 0 0.4rem rgba(237, 30, 121, 4),
+                0 0 0.4rem rgba(237, 30, 121, 4),
+                0 0 0.4rem rgba(237, 30, 121, 4),
+                0 0 0.6rem rgba(237, 30, 121, 4),
+                0 0 1rem rgba(237, 30, 121, 4),
+                0 0 1rem rgba(237, 30, 121, 4),
+                0 0 1rem rgba(237, 30, 121, 4),
+                0 0 2rem rgba(237, 30, 121, 4);
+    }
+    34%, 60%, 100% {
+        border-shadow:
+                0 0 1.5rem rgba(237, 30, 121, 4),
+                0 0 0.6rem rgba(237, 30, 121, 4),
+                0 0 0.6rem rgba(237, 30, 121, 4),
+                0 0 0.6rem rgba(237, 30, 121, 4),
+                0 0 2rem rgba(237, 30, 121, 4),
+                0 0 3rem rgba(237, 30, 121, 4);
+    }
+}
+@keyframes flickerButtonCookiesRose {
     0%, 53%, 75% {
         border-shadow:
                 0 0 0.4rem rgba(237, 30, 121, 4),

@@ -1,0 +1,64 @@
+.content-card {
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.content-card {
+    border: rgb(237, 30, 121) solid 2px;
+    padding: 1rem;
+    position: relative;
+}
+
+.content-card div {
+    display: flex;
+    position: relative;
+    margin: auto 10px;
+    padding: 0;
+    z-index: 5;
+    height: 100%;
+}
+
+.content-card div img {
+    width: 100px;
+    height: 100px;
+    margin: auto 0 auto 1rem;
+}
+
+.content-card div p a {
+    color: rgb(237, 30, 121);
+}
+
+.content-card div p {
+    margin: auto 0;
+    padding-right: 1rem;
+    border-right: 1px solid rgb(237, 30, 121);
+}
+
+.content-card::before,
+.content-card::after {
+    content: '';
+    position: absolute;
+    background: #000;
+}
+
+.content-card::before {
+    width: calc(100% + 50px + 4px - 120px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.content-card::after {
+    height: calc(100% + 50px + 4px - 120px);
+    width: calc(100% + 4px);
+    left: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
