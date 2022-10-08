@@ -4,12 +4,31 @@
     margin: 5rem auto;
     display: flex;
     flex-flow: row nowrap;
+}
 
+#o-nas p, #o-nas h3 {
+    color: white;
 }
 
 .o-nas--main-container {
-    width:90%
+    width: 90%;
+    margin: 1rem;
+}
 
+.o-nas--content-container {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-nas--parag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.o-nas--parag-container img {
+    width: 100%;
 }
 
 .o-nas--btn-cont {
@@ -23,18 +42,38 @@
 .o-nas--btn {
     width: 50px;
     height: 50px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
+    cursor: pointer;
+}
+
+.o-nas--btn:hover .o-nas--btn-bar-l, .o-nas--btn:hover .o-nas--btn-bar-r {
+    box-shadow: 0 0 1rem rgb(237, 30, 121);
 }
 
 .o-nas--btn-r-bar1 {
-    width: 100%;
-    position: relative;
-    border: 1px solid red;
+    transform: translateY(10px) rotate(45deg);
 
 }
-.o-nas--btn-r-bar2 {
-    width: 100%;
-    position: relative;
-    border: 1px solid green;
 
+.o-nas--btn-r-bar2 {
+    transform: translateY(30px) rotate(-45deg);
+
+}
+
+.o-nas--btn-l-bar1 {
+    transform: translateY(10px) rotate(-45deg);
+
+}
+
+.o-nas--btn-l-bar2 {
+    transform: translateY(30px) rotate(45deg);
+}
+
+.o-nas--btn-bar-r, .o-nas--btn-bar-l {
+    width: 75%;
+    position: relative;
+    border: 2px solid rgb(237, 30, 121);
+    background-color: rgb(237, 30, 121);
+    border-radius: 3px;
+    transition: box-shadow 0.25s;
 }
