@@ -1,0 +1,40 @@
+#o-nas {
+    max-width: 1400px;
+    width: 100%;
+    margin: 5rem auto;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.o-nas--main-container {
+    width:90%
+
+}
+
+.o-nas--btn-cont {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-nas--btn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.o-nas--btn-r-bar1 {
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+
+}
+.o-nas--btn-r-bar2 {
+    width: 100%;
+    position: relative;
+    border: 1px solid green;
+
+}
