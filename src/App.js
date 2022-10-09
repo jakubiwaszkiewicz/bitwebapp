@@ -8,23 +8,27 @@ import HarmonogramPage from "./Components/HarmonogramPage";
 import ONasPage from "./Components/ONasPage";
 import PartnerzyPage from "./Components/PartnerzyPage";
 import CookiesPopUp from "./Components/CookiesPopUp";
+import Footer from "./Components/Footer"
+
+
 
 function App() {
 
-  return (
-    <div className="app">
-      <NavBar/>
-      <HomePage/>
-      <CookiesPopUp/>
-      <NocGierPage/>
-      <TurniejPage/>
-      <GameJamPage/>
-      <WarsztatyPage/>
-      <HarmonogramPage/>
-      <ONasPage/>
-      <PartnerzyPage/>
-    </div>
-  );
+      return (
+            <div className="app">
+                  <NavBar/>
+                  <HomePage/>
+                  <CookiesPopUp/>
+                  <NocGierPage/>
+                  <TurniejPage/>
+                  <GameJamPage/>
+                  <WarsztatyPage/>
+                  <HarmonogramPage/>
+                  <ONasPage/>
+                  <PartnerzyPage/>
+                  <Footer/>
+            </div>
+      );
 }
 
 export default App;

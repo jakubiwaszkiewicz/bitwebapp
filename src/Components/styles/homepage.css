@@ -6,33 +6,42 @@
     justify-content: center;
     gap: 2rem;
 }
+
 .home-title {
     text-align: center;
     font-size: 7rem;
 }
+
 @media screen and (max-width: 600px) {
     .home-title {
         font-size: 5rem;
     }
+
     .text {
         font-size: 1.75rem;
     }
+
     .home-content {
         gap: 4rem;
     }
+
 }
+
 .text {
     font-size: 2rem;
     text-align: center;
     color: #6c757d;
 }
+
 @media screen and (max-width: 400px) {
     .home-title {
         font-size: 4.5rem;
     }
+
     .text {
         font-size: 2rem;
     }
+
 }
 
 #home {
@@ -43,10 +52,12 @@
     width: 100vw;
     height: 100vh;
 }
+
 .NeonText {
     font-family: "Neoneon", sans-serif;
     color: rgb(255, 190, 255);
 }
+
 .roseNeonText1 {
     animation: flickerRose1 2s infinite alternate;
 }
@@ -60,6 +71,7 @@
     font-family: "Neoneon", sans-serif;
     color: rgb(163, 255, 231);
 }
+
 .home-neon-button {
     background: none;
     margin-top: 2rem;

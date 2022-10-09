@@ -4,12 +4,14 @@
     justify-content: center;
     color: #dee2e6;
 }
+
 .tur-container {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     gap: 4rem;
 }
+
 .tur-title h3 {
     font-size: 2.5rem;
     color: #dee2e6;
@@ -122,6 +124,7 @@
     .neon-button {
         margin-top: 3rem;
     }
+
 }
 
 @keyframes flickerBluePhoto {
@@ -130,9 +133,11 @@
                 0 0 0.2rem rgba(76, 239, 216, 4),
                 0 0 0.5rem rgba(76, 239, 216, 4);
     }
+
     34%, 60%, 100% {
         box-shadow:
                 0 0 0.2rem rgba(76, 239, 216, 4),
                 0 0 0.6rem rgba(76, 239, 216, 2);
     }
+
 }

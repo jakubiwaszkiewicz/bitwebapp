@@ -37,7 +37,7 @@
 
 @keyframes flickerBorderRose {
     0%, 53%, 75% {
-        border-shadow:
+        box-shadow:
                 0 0 0.4rem rgba(237, 30, 121, 4),
                 0 0 0.4rem rgba(237, 30, 121, 4),
                 0 0 0.4rem rgba(237, 30, 121, 4),
@@ -48,7 +48,7 @@
                 0 0 2rem rgba(237, 30, 121, 4);
     }
     34%, 60%, 100% {
-        border-shadow:
+        box-shadow:
                 0 0 1.5rem rgba(237, 30, 121, 4),
                 0 0 0.6rem rgba(237, 30, 121, 4),
                 0 0 0.6rem rgba(237, 30, 121, 4),
