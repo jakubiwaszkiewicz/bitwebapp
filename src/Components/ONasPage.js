@@ -4,16 +4,16 @@ import mo from "../pictures/EMOS.png";
 
 export default function ONasPage () {
 
-    const [count,setCount] = React.useState(1)
+    let [count,setCount] = React.useState(0)
 
     const [styles0, setStyles0] = React.useState(
         {
-            display:"none"
+            display:"flex"
         }
     )
     const [styles1, setStyles1] = React.useState(
         {
-            display:"flex"
+            display:"none"
         }
     )
     const [styles2, setStyles2] = React.useState(
@@ -29,6 +29,7 @@ export default function ONasPage () {
         } else if (count === 2) {
             setCount(count - 2)
         }
+        /*setTimeout(() => 0 ,0.1)*/
         if (count === 0) {
             setStyles0({display: "flex"})
             setStyles1({display: "none"})
@@ -52,16 +53,13 @@ export default function ONasPage () {
     function subtract () {
         if (count > 0) {
             setCount(count - 1)
-        }
-        if (count === 0) {
+        } else if (count === 0) {
             setCount(count + 2)
-        }
-        if (count === 0) {
+        } else if (count === 0) {
             setStyles0({display:"flex"})
             setStyles1({display:"none"})
             setStyles2({display:"none"})
-        }
-        if (count === 1) {
+        } else if (count === 1) {
             setStyles0({display:"none"})
             setStyles1({display:"flex"})
             setStyles2({display:"none"})
