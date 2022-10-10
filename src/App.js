@@ -23,7 +23,7 @@ function App() {
                   <TurniejPage/>
                   <GameJamPage/>
                   <WarsztatyPage/>
-                  <HarmonogramPage/>
+                  {/*<HarmonogramPage/>*/}
                   <ONasPage/>
                   <PartnerzyPage/>
                   <Footer/>

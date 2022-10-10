@@ -62,3 +62,22 @@
     transform: translateY(-50%);
     z-index: 1;
 }
+
+@media screen and (max-width: 650px) {
+    .content-card div {
+        flex-flow: column-reverse;
+        align-items: center;
+        margin: 0;
+    }
+    .content-card div img {
+        width: 100px;
+        height: 100px;
+        margin: 1rem 0;
+    }
+    .content-card div p {
+        padding: 1rem 0;
+        padding-right: 1rem;
+        border-top: 1px solid rgb(237, 30, 121);
+        border-right: none;
+    }
+}

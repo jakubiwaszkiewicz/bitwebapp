@@ -1,6 +1,5 @@
 import klawa from "../pictures/klawiaturka.jpeg";
 import "./styles/turniej.css"
-import "./styles/mediaqueriesftpage.css"
 
 export default function TurniejPage () {
   return (
@@ -25,14 +24,14 @@ export default function TurniejPage () {
                         </p>
                     </div>
                     <div className="tur-cont-btn">
-                        <div><button className="neon-button-rose">Regulamin</button></div>
-                        <div><button className="neon-button-rose">Kup bilet</button></div>
-                        <div><button className="neon-button-rose">Stream</button></div>
+                        <div><button className="neon-button-rose"><a href="#">Regulamin</a></button></div>
+                        <div><button className="neon-button-rose"><a href="#">Kup bilet</a></button></div>
+                        <div><button className="neon-button-rose"><a href="#">Stream</a></button></div>
                     </div>
                 </div>
             </div>
 
-            <div className="tur-harmonogram">
+            {/*<div className="tur-harmonogram">
               <div className="table">
                 <div className="row-left">
                   <div className="table-item"><span className="text-blue">17</span> pażdziernika</div>
@@ -45,12 +44,12 @@ export default function TurniejPage () {
 
                 <div className="row-right">
                   <div className="table-item">Koniec zapisów</div>
-                  <div className="table-item">Fianał fazy eliminacyjnej</div>
+                  <div className="table-item">Finał fazy eliminacyjnej</div>
                   <div className="table-item">I dzień BIT Festival 2021</div>
                   <div className="table-item">II i III dzień BIT Festival 2021</div>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
 
         </div>

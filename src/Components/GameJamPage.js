@@ -34,7 +34,7 @@ export default function GameJamPage () {
                   </div>
               </div>
 
-              <div className="game-harmonogram">
+              {/*<div className="game-harmonogram">
                 <div className="table">
                   <div className="row-left">
                     <div className="table-item"><span className="text-blue">17</span> pażdziernika</div>
@@ -52,7 +52,7 @@ export default function GameJamPage () {
                     <div className="table-item">II i III dzień BIT Festival 2021</div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
           </div>
       </section>
   )
