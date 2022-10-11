@@ -21,50 +21,48 @@ export default function ONasPage () {
             display:"none"
         }
     )
-
     function add () {
-        if (count < 2) {
-            setCount(count + 1)
-            console.log(count, "add")
-        } else if (count === 2) {
-            setCount(count - 2)
+        let countHelper = count;
+        if (countHelper < 2) {
+            countHelper++;
+            setCount(countHelper)
+        } else if (countHelper === 2) {
+            countHelper = countHelper - 2;
+            setCount(countHelper)
         }
-        /*setTimeout(() => 0 ,0.1)*/
-        if (count === 0) {
+        if (countHelper === 0) {
             setStyles0({display: "flex"})
             setStyles1({display: "none"})
             setStyles2({display: "none"})
-            console.log(count);
-        }
-        else if (count === 1) {
+        } else if (countHelper === 1) {
             setStyles0({display: "none"})
             setStyles1({display: "flex"})
             setStyles2({display: "none"})
-            console.log(count);
-        } else if (count === 2) {
+        } else if (countHelper === 2) {
             setStyles0({display:"none"})
             setStyles1({display:"none"})
             setStyles2({display:"flex"})
-            console.log(count);
         }
-        console.log(count, "after")
     }
 
     function subtract () {
-        if (count > 0) {
-            setCount(count - 1)
-        } else if (count === 0) {
-            setCount(count + 2)
-        } else if (count === 0) {
+        let countHelper = count;
+        if (countHelper > 0) {
+            countHelper--;
+            setCount(countHelper)
+        } else if (countHelper === 0) {
+            countHelper = countHelper + 2;
+            setCount(countHelper)
+        }
+        if (countHelper === 0) {
             setStyles0({display:"flex"})
             setStyles1({display:"none"})
             setStyles2({display:"none"})
-        } else if (count === 1) {
+        } else if (countHelper === 1) {
             setStyles0({display:"none"})
             setStyles1({display:"flex"})
             setStyles2({display:"none"})
-        }
-        if (count === 2) {
+        } else if (countHelper === 2) {
             setStyles0({display:"none"})
             setStyles1({display:"none"})
             setStyles2({display:"flex"})
