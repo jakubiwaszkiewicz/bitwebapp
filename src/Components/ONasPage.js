@@ -8,19 +8,144 @@ export default function ONasPage () {
 
     const [styles0, setStyles0] = React.useState(
         {
-            display:"flex"
+            height: "50vh",
+            opacity: "1"
         }
     )
     const [styles1, setStyles1] = React.useState(
         {
-            display:"none"
+            height: "0vh",
+            opacity: "0"
         }
     )
     const [styles2, setStyles2] = React.useState(
         {
-            display:"none"
+            height: "0vh",
+            opacity: "0"
         }
     )
+
+    function checkerSubtract (x) {
+        if (x === 0) {
+            setStyles0({
+                animation: "appearLeft 0.5s ease-in-out",
+                opacity: "1",
+                height: "1000px",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles1({
+                animation: "disappearLeft 0.5s ease-in-out",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles2({
+                animation: "disappearLeft 0.5s ease-in-out",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+        } else if (x === 1) {
+            setStyles0({
+                animation: "disappearLeft 0.5s ease-in-out",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles1({
+                animation: "appearLeft 0.5s ease-in-out",
+                opacity: "1",
+                height: "1000px",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles2({
+                animation: "disappearLeft 0.5s ease-in-out",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+        } else if (x === 2) {
+            setStyles0({
+                animation: "disappearLeft 0.5s ease-in-out",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles1({
+                animation: "disappearLeft 0.5s ease-in-out",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles2({
+                animation: "appearLeft 0.5s ease-in-out",
+                opacity: "1",
+                height: "1000px",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+        }
+    }
+    function checkerAdd (x) {
+        if (x === 0) {
+            setStyles0({
+                animation: "appearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "1",
+                height: "1000px",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles1({
+                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles2({
+                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+        } else if (x === 1) {
+            setStyles0({
+                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles1({
+                animation: "appearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "1",
+                height: "1000px",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles2({
+                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+        } else if (x === 2) {
+            setStyles0({
+                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles1({
+                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "0",
+                height: "0",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+            setStyles2({
+                animation: "appearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                opacity: "1",
+                height: "1000px",
+                transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
+            })
+        }
+    }
+
     function add () {
         let countHelper = count;
         if (countHelper < 2) {
@@ -30,19 +155,7 @@ export default function ONasPage () {
             countHelper = countHelper - 2;
             setCount(countHelper)
         }
-        if (countHelper === 0) {
-            setStyles0({display: "flex"})
-            setStyles1({display: "none"})
-            setStyles2({display: "none"})
-        } else if (countHelper === 1) {
-            setStyles0({display: "none"})
-            setStyles1({display: "flex"})
-            setStyles2({display: "none"})
-        } else if (countHelper === 2) {
-            setStyles0({display:"none"})
-            setStyles1({display:"none"})
-            setStyles2({display:"flex"})
-        }
+        checkerAdd (countHelper)
     }
 
     function subtract () {
@@ -54,20 +167,10 @@ export default function ONasPage () {
             countHelper = countHelper + 2;
             setCount(countHelper)
         }
-        if (countHelper === 0) {
-            setStyles0({display:"flex"})
-            setStyles1({display:"none"})
-            setStyles2({display:"none"})
-        } else if (countHelper === 1) {
-            setStyles0({display:"none"})
-            setStyles1({display:"flex"})
-            setStyles2({display:"none"})
-        } else if (countHelper === 2) {
-            setStyles0({display:"none"})
-            setStyles1({display:"none"})
-            setStyles2({display:"flex"})
-        }
+        checkerSubtract (countHelper)
     }
+
+
 
     return (
         <section id="o-nas">
@@ -138,7 +241,6 @@ export default function ONasPage () {
                         <div className="o-nas--btn-bar-r o-nas--btn-r-bar2"></div>
                     </div>
                 </div>
-            <p>{count}</p>
         </section>
     )
 }
