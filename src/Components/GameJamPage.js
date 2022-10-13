@@ -6,12 +6,9 @@ export default function GameJamPage () {
   return (
       <section id="game-jam">
           <div className="game-container">
-              <div className="game-title">
-                  {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
-                  <h3>BIT Jam</h3>
-              </div>
               <div className="game-content-cont">
                   <div className="game-cont-cont">
+                      <h3>BIT Jam</h3>
                       <div className="game-cont-text">
                           <p>
                             09 - 10.12.2022

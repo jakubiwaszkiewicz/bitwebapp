@@ -12,10 +12,19 @@
     gap: 4rem;
 }
 
-.noc-title h3 {
+.noc-title-cont h3 {
+    text-align: center;
     font-size: 2.5rem;
     color: #dee2e6;
     margin: 0;
+}
+
+.noc-title-cont {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
 }
 
 .noc-content-cont {
@@ -29,7 +38,7 @@
 }
 
 .noc-cont-text {
-    width: 47%;
+    width: 100%;
     border: rgb(76, 239, 216) solid 2px;
     padding: 1rem;
     position: relative;

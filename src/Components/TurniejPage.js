@@ -5,15 +5,12 @@ export default function TurniejPage () {
   return (
     <section id="turniej">
         <div className="tur-container">
-            <div className="tur-title">
-                {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
-                <h3>Turniej League of Legends</h3>
-            </div>
             <div className="tur-content-cont">
                 <div className="tur-cont-img">
                     <img src={klawa} alt="ziomek z vrem"></img>
                 </div>
                 <div className="tur-cont-cont">
+                    <h3>Turniej League of Legends</h3>
                     <div className="tur-cont-text">
                         <p>
                           W nocy z 10 na 11 grudnia

@@ -80,6 +80,12 @@
     padding: 1rem;
     position: relative;
 }
+#turniej h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #dee2e6;
+    margin: 0;
+}
 
 .tur-cont-text p {
     text-align: center;

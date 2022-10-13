@@ -42,14 +42,12 @@ export default function ONasPage () {
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles2({
-                animation: "disappearLeft 0.5s ease-in-out",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
         } else if (x === 1) {
             setStyles0({
-                animation: "disappearLeft 0.5s ease-in-out",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
@@ -74,7 +72,6 @@ export default function ONasPage () {
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles1({
-                animation: "disappearLeft 0.5s ease-in-out",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
@@ -90,57 +87,54 @@ export default function ONasPage () {
     function checkerAdd (x) {
         if (x === 0) {
             setStyles0({
-                animation: "appearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                animation: "appearRight 0.5s ease-in-out",
                 opacity: "1",
                 height: "1000px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles1({
-                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles2({
-                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                animation: "disappearRight 0.5s ease-in-out",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
         } else if (x === 1) {
             setStyles0({
-                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                animation: "disappearRight 0.5s ease-in-out",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles1({
-                animation: "appearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                animation: "appearRight 0.5s ease-in-out",
                 opacity: "1",
                 height: "1000px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles2({
-                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
         } else if (x === 2) {
             setStyles0({
-                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles1({
-                animation: "disappearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                animation: "disappearRight 0.5s ease-in-out",
                 opacity: "0",
                 height: "0",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles2({
-                animation: "appearRight 0.5s cubic-bezier(.28,.64,.63,1.48)",
+                animation: "appearRight 0.5s ease-in-out",
                 opacity: "1",
                 height: "1000px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
