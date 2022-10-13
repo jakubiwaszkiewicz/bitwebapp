@@ -1,6 +1,8 @@
 import "./styles/o-nas.css"
 import React from "react"
 import mo from "../pictures/EMOS.png";
+import dataCT from "./dataCT";
+import CardCT from "./CardCT";
 
 export default function ONasPage () {
 
@@ -170,6 +172,13 @@ export default function ONasPage () {
         checkerSubtract (countHelper)
     }
 
+    const DatasCT = dataCT.map((x) => {
+        return (
+            <CardCT
+                key = {x.id}
+                item = {x}
+            />
+        );})
 
 
     return (
@@ -230,8 +239,8 @@ export default function ONasPage () {
                 </div>
                 <div id="o-nas--organizatorzy" className="o-nas--content-container" style={styles2}>
                     <h3>Organizatorzy</h3>
-                    <div>
-                        <img src={mo} alt="cos tam" />
+                    <div className="o-nas--cardsCT">
+                        {DatasCT}
                     </div>
                 </div>
             </div>

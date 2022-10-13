@@ -75,6 +75,12 @@
     transform: translateY(30px) rotate(45deg);
 }
 
+.o-nas--cardsCT {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .o-nas--btn-bar-r, .o-nas--btn-bar-l {
     width: 75%;
     position: relative;
@@ -83,6 +89,7 @@
     border-radius: 3px;
     transition: box-shadow 0.25s;
 }
+
 @keyframes disappearLeft {
     0% {
         opacity: 1;
@@ -92,7 +99,6 @@
         opacity: 0;
         transform:translateX(700px);
     }
-
 }
 
 @keyframes disappearRight {
