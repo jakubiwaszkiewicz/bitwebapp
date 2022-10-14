@@ -1,33 +1,48 @@
 .table {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #dee2e6;
+    margin-top: 2rem;
 }
 
 .row {
     width: 80%;
     display: flex;
     flex-flow: row nowrap;
-    align-content: center;
+    justify-content: space-evenly;
 }
 
 .col-border {
-    border-right: 2px solid #eeafc9;
-    animation: flickerBorderRose 1s infinite alternate;
+    border-left: 2px solid #f1c8d5;
+
+    width: 0;
+    padding: 0;
+    margin: 0;
+
+    box-shadow:
+            0 0 0.4rem rgba(237, 30, 121, 4),
+            0 0 0.4rem rgba(237, 30, 121, 4),
+            0 0 0.4rem rgba(237, 30, 121, 4),
+            0 0 0.6rem rgba(237, 30, 121, 4),
+            0 0 1rem rgba(237, 30, 121, 4),
+            0 0 1rem rgba(237, 30, 121, 4),
+            0 0 1rem rgba(237, 30, 121, 4),
+            0 0 2rem rgba(237, 30, 121, 4);
 }
 
 .table-item-left {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     font-size: 1.5rem;
     text-align: right;
+    padding: 1rem 2rem;
+
 }
 
 .table-item-right {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     font-size: 1.5rem;
     text-align: left;
+    padding: 1rem 2rem;
 }
 
 .text-blue {
@@ -37,15 +52,7 @@
 
 @keyframes flickerBorderRose {
     0%, 53%, 75% {
-        box-shadow:
-                0 0 0.4rem rgba(237, 30, 121, 4),
-                0 0 0.4rem rgba(237, 30, 121, 4),
-                0 0 0.4rem rgba(237, 30, 121, 4),
-                0 0 0.6rem rgba(237, 30, 121, 4),
-                0 0 1rem rgba(237, 30, 121, 4),
-                0 0 1rem rgba(237, 30, 121, 4),
-                0 0 1rem rgba(237, 30, 121, 4),
-                0 0 2rem rgba(237, 30, 121, 4);
+
     }
     34%, 60%, 100% {
         box-shadow:

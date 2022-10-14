@@ -22,33 +22,32 @@ export default function TurniejPage () {
                     </div>
                     <div className="tur-cont-btn">
                         <div><button className="neon-button-rose"><a href="#">Regulamin</a></button></div>
-                        <div><button className="neon-button-rose"><a href="#">Kup bilet</a></button></div>
                         <div><button className="neon-button-rose"><a href="#">Stream</a></button></div>
                     </div>
                 </div>
             </div>
 
-            {/*<div className="tur-harmonogram">
-              <div className="table">
-                <div className="row-left">
-                  <div className="table-item"><span className="text-blue">17</span> pażdziernika</div>
-                  <div className="table-item"><span className="text-blue">22</span> listopada</div>
-                  <div className="table-item"><span className="text-blue">25</span> listopada</div>
-                  <div className="table-item"><span className="text-blue">26-27</span> listopada</div>
-                </div>
-
-                <div className="row-border"></div>
-
-                <div className="row-right">
-                  <div className="table-item">Koniec zapisów</div>
-                  <div className="table-item">Finał fazy eliminacyjnej</div>
-                  <div className="table-item">I dzień BIT Festival 2021</div>
-                  <div className="table-item">II i III dzień BIT Festival 2021</div>
-                </div>
+          <div className="game-harmonogram">
+            <div className="table">
+              <div className="row">
+                <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
+                <div className="col-border"></div>
+                <div className="table-item-right">Koniec zapisów</div>
               </div>
-            </div>*/}
 
+              <div className="row">
+                <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
+                <div className="col-border"></div>
+                <div className="table-item-right">Koniec zapisów</div>
+              </div>
 
+              <div className="row">
+                <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
+                <div className="col-border"></div>
+                <div className="table-item-right">Koniec zapisów</div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
   )
