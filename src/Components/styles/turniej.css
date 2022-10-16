@@ -56,23 +56,29 @@
     background: none;
     color: white;
     font-size: 1.25rem;
-    border: #FFC6E2 solid 2px;
+    border: #ffd9eb solid 2px;
     border-radius: 2rem;
     box-shadow:
-            0 0 0.3rem #FFC6E2,
-            0 0 1rem rgba(237, 30, 121, 5),
-            0 0 2rem rgba(237, 30, 121, 15);
+            0 0 0.3rem #f393bf,
+            0 0 0.8rem rgba(237, 30, 121, 5),
+            0 0 1.5rem rgba(237, 30, 121, 15),
+            inset 0 0 0.3rem #f393bf,
+            inset 0 0 0.8rem rgba(237, 30, 121, 5),
+            inset 0 0 1.5rem rgba(237, 30, 121, 15);
     padding: 1rem;
     transition: box-shadow 0.5s ease-out;
     width: 10rem;
 }
 
 .neon-button-rose:hover{
-    border: rgb(76, 239, 216) solid 2px;
+    border: rgb(212, 252, 244) solid 2px;
     box-shadow:
-            0 0 1rem rgba(76, 239, 216, 3),
-            0 0 2rem rgba(76, 239, 216, 7);
-
+            0 0 0.1rem rgba(76, 239, 216, 3),
+            0 0 0.5rem rgba(76, 239, 216, 3),
+            0 0 1rem rgba(76, 239, 216, 7),
+            inset 0 0 0.1rem rgba(76, 239, 216, 3),
+            inset 0 0 0.5rem rgba(76, 239, 216, 3),
+            inset 0 0 1rem rgba(76, 239, 216, 7);
 }
 
 .tur-cont-text {
