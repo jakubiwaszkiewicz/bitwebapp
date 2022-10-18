@@ -10,19 +10,19 @@ export default function ONasPage () {
 
     const [styles0, setStyles0] = React.useState(
         {
-            height: "50vh",
+            height: "1000px",
             opacity: "1"
         }
     )
     const [styles1, setStyles1] = React.useState(
         {
-            height: "0vh",
+            height: "0",
             opacity: "0"
         }
     )
     const [styles2, setStyles2] = React.useState(
         {
-            height: "0vh",
+            height: "0",
             opacity: "0"
         }
     )

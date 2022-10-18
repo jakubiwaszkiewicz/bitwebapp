@@ -3,7 +3,7 @@ export default [
     {
         id: 1,
         name: "Jakub Lejczak",
-        title: "Main Organizer",
+        title: "Koordynator Główny",
         shortTitle: "MO",
         description: "",
         img: "./core-team/jakub_lejczak.jpg",
@@ -13,7 +13,7 @@ export default [
     {
         id: 2,
         name: "Jakub Iwaszkiewicz",
-        title: "Topic Responsible",
+        title: "Koordynator ds. Merytoryki",
         shortTitle: "TR",
         description: "",
         img: "./core-team/jakub_iwaszkiewicz.jpg",
@@ -23,7 +23,7 @@ export default [
     {
         id: 3,
         name: "Adrian Augustyn",
-        title: "Graphic Designer",
+        title: "Koordynator ds. Grafiki",
         shortTitle: "Designer",
         description: "",
         img: "./core-team/adrian_augustyn.jpg",
@@ -33,8 +33,8 @@ export default [
     {
         id: 4,
         name: "Julia Gacal",
-        title: "Financial Responsibility",
-        shortTitle: "FR Barter",
+        title: "Koordynator ds. Kontaktu z Firmami",
+        shortTitle: "FR",
         description: "",
         img: "./core-team/julia_gacal.jpg",
         alt: "Julia Gacal, FR Barter", /*rozwiniecie*/
@@ -44,7 +44,7 @@ export default [
     {
         id: 5,
         name: "Karolina Badowska",
-        title: "PR",
+        title: "Koordynator ds. Promocji",
         shortTitle: "PR",
         description: "",
         img: "./core-team/karolina_badowska.jpg",
@@ -54,7 +54,7 @@ export default [
     {
         id: 6,
         name: "Aleksandra Grochowska",
-        title: "LG",
+        title: "Koordynator ds. Logistyki",
         shortTitle: "LG",
         description: "",
         img: "./core-team/aleksandra_grochowska.jpg",
@@ -64,7 +64,7 @@ export default [
     {
         id: 7,
         name: "Piotr Maciejończyk",
-        title: "CR",
+        title: "Koordynator ds. Rozrywki",
         shortTitle: "CR",
         description: "",
         img: "./core-team/piotr_maciejonczyk.jpg",
@@ -74,7 +74,7 @@ export default [
     {
         id: 8,
         name: "Julian Dobryniewski",
-        title: "IT/LG",
+        title: "Koordynator ds. IT",
         shortTitle: "IT/LG",
         description: "",
         img: "./core-team/julian_dobryniewski.jpg",
@@ -84,7 +84,7 @@ export default [
     {
         id: 9,
         name: "Jagoda Wierzbińska",
-        title: "Angel",
+        title: "Członkini Zespołu",
         shortTitle: "Angel",
         description: "",
         img: "./core-team/jagoda_wierzbinska.jpg",
