@@ -15,34 +15,23 @@
 }
 
 .col-border {
-    border-left: 2px solid #f1c8d5;
-
+    border-left: 2px solid rgba(237, 30, 121, 4);
     width: 0;
     padding: 0;
     margin: 0;
-
-    box-shadow:
-            0 0 0.4rem rgba(237, 30, 121, 4),
-            0 0 0.4rem rgba(237, 30, 121, 4),
-            0 0 0.4rem rgba(237, 30, 121, 4),
-            0 0 0.6rem rgba(237, 30, 121, 4),
-            0 0 1rem rgba(237, 30, 121, 4),
-            0 0 1rem rgba(237, 30, 121, 4),
-            0 0 1rem rgba(237, 30, 121, 4),
-            0 0 2rem rgba(237, 30, 121, 4);
 }
 
 .table-item-left {
     font-size: 1.5rem;
     text-align: right;
     padding: 1rem 2rem;
-
 }
 
 .table-item-right {
     font-size: 1.5rem;
     text-align: left;
     padding: 1rem 2rem;
+    color: #b1b3b4;
 }
 
 .text-blue {

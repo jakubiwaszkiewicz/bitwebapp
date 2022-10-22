@@ -81,6 +81,10 @@
             inset 0 0 1rem rgba(76, 239, 216, 7);
 }
 
+.neon-button-rose a{
+    color: #ffffff;
+}
+
 .tur-cont-text {
     border: rgba(237, 30, 121, 5) solid 2px;
     padding: 1rem;
