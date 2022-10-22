@@ -27,5 +27,6 @@
 
 .partnerzy--box img {
     max-width: 20%;
+    min-width: 150px;
     margin: 2.5%;
 }

@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     width: 47%;
+    gap: 3rem;
 }
 
 .noc-content-cont {
