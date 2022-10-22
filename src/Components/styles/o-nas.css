@@ -4,6 +4,7 @@
     margin: 5rem auto;
     display: flex;
     flex-flow: row nowrap;
+    padding: 0;
 }
 
 #o-nas p, #o-nas h3 {
@@ -33,6 +34,7 @@
     justify-content: center;
     gap: 1rem;
 }
+
 .o-nas--parag-container img {
     width: 100%;
 }
@@ -42,7 +44,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .o-nas--btn {

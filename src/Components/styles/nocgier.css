@@ -161,10 +161,13 @@ hr.line {
         display: none;
     }
 
-    .noc-cont-text{
+    .noc-cont-text {
         width: 100%;
     }
-
+    .noc-title-cont {
+        width: 100%;
+        padding: 1rem;
+    }
 }
 
 @media screen and (max-width: 650px) {

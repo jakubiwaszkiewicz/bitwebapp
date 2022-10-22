@@ -10,7 +10,7 @@ export default function ONasPage () {
 
     const [styles0, setStyles0] = React.useState(
         {
-            height: "1000px",
+            height: "1500px",
             opacity: "1"
         }
     )
@@ -32,7 +32,7 @@ export default function ONasPage () {
             setStyles0({
                 animation: "appearLeft 0.5s ease-in-out",
                 opacity: "1",
-                height: "1000px",
+                height: "1500px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles1({
@@ -55,7 +55,7 @@ export default function ONasPage () {
             setStyles1({
                 animation: "appearLeft 0.5s ease-in-out",
                 opacity: "1",
-                height: "1000px",
+                height: "1500px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles2({
@@ -79,7 +79,7 @@ export default function ONasPage () {
             setStyles2({
                 animation: "appearLeft 0.5s ease-in-out",
                 opacity: "1",
-                height: "1000px",
+                height: "1500px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
         }
@@ -89,7 +89,7 @@ export default function ONasPage () {
             setStyles0({
                 animation: "appearRight 0.5s ease-in-out",
                 opacity: "1",
-                height: "1000px",
+                height: "1500px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles1({
@@ -113,7 +113,7 @@ export default function ONasPage () {
             setStyles1({
                 animation: "appearRight 0.5s ease-in-out",
                 opacity: "1",
-                height: "1000px",
+                height: "1500px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
             setStyles2({
@@ -136,7 +136,7 @@ export default function ONasPage () {
             setStyles2({
                 animation: "appearRight 0.5s ease-in-out",
                 opacity: "1",
-                height: "1000px",
+                height: "1500px",
                 transition: "opacity 0s linear 0.25s, height 0s linear 0.25s"
             })
         }
@@ -184,8 +184,8 @@ export default function ONasPage () {
                 </div>
             </div>
             <div className="o-nas--main-container">
-                <div id="o-nas--bit" className="o-nas--content-container" style={styles0}>
-                    <h3>BEST IT FESTIVAL</h3>
+                <div id="o-nas--bit" className="o-nas--content-container" style={styles1}>
+                    <h3>Co to BEST IT FESTIVAL?</h3>
                     <div className="o-nas--parag-container">
                         <p>
                             BEST IT Festival to trzydniowy festiwal informatyczny z mnóstwem
@@ -210,8 +210,8 @@ export default function ONasPage () {
                         </div>
                     </div>
                 </div>
-                <div id="o-nas--best" className="o-nas--content-container" style={styles1}>
-                    <h3>BEST</h3>
+                <div id="o-nas--best" className="o-nas--content-container" style={styles2}>
+                    <h3>Co to ten BEST???</h3>
                     <div className="o-nas--parag-container">
                         <p>
                         Board of European Students of Technology to europejska organizacja studencka
@@ -231,8 +231,8 @@ export default function ONasPage () {
                         </div>
                     </div>
                 </div>
-                <div id="o-nas--organizatorzy" className="o-nas--content-container" style={styles2}>
-                    <h3>Organizatorzy</h3>
+                <div id="o-nas--organizatorzy" className="o-nas--content-container" style={styles0}>
+                    <h3>Organizatorzy Best IT Festivalu</h3>
                     <div className="o-nas--cardsCT">
                         {DatasCT}
                     </div>

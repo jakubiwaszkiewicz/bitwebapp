@@ -101,6 +101,7 @@
                 0 0 3rem rgba(237, 30, 121, 4);
     }
 }
+
 @keyframes flickerButtonCookiesRose {
     0%, 53%, 75% {
         box-shadow:

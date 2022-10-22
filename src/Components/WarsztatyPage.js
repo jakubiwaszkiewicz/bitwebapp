@@ -1,4 +1,4 @@
-import Vr from "../pictures/vr.webp";
+/*import Vr from "../pictures/vr.webp";*/
 import "./styles/warsztaty.css"
 import CardWar from "./CardWar"
 import data from "./data.js"
@@ -7,7 +7,7 @@ export default function WarsztatyPage () {
   const Datas = data.map((x) => {
     return (
       <CardWar
-        key = {x.id}
+        /*key = {x.id}*/
         item = {x}
       />
     );})

@@ -1,7 +1,7 @@
 #partnerzy {
     max-width: 1400px;
     width: 100%;
-    margin: 5rem auto;
+    margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

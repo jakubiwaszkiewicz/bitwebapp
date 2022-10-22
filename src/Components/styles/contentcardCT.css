@@ -12,7 +12,28 @@
     width: 100%;
 }
 .cardCT span {
-    color: rgba(255, 255, 255, 0.46);
-    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.7rem;
     margin: 0.5rem 0;
+    text-align: center;
+}
+
+.cardCT span .title-work {
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 790px) {
+    .cardCT {
+        width: 120px;
+        margin: 0.5rem;
+    }
+}
+@media screen and (max-width: 557px) {
+    .cardCT {
+        width: 100px;
+        margin: 0.5rem;
+    }
 }

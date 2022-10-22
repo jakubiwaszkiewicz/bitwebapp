@@ -2,7 +2,7 @@ import Logo from '../pictures/logo.png';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+/*import NavDropdown from 'react-bootstrap/NavDropdown';*/
 import './styles/navbar.css';
 
 export default function NavBar () {
@@ -26,7 +26,6 @@ export default function NavBar () {
                 <Nav.Link href="#turniej">Turniej</Nav.Link>
                 <Nav.Link href="#game-jam">Game Jam</Nav.Link>
                 <Nav.Link href="#warsztaty">Warsztaty</Nav.Link>
-                <Nav.Link href="#harmonogram">Harmonogram</Nav.Link>
                 <Nav.Link href="#o-nas">O nas</Nav.Link>
                 <Nav.Link href="#partnerzy">Partnerzy</Nav.Link>
               </Nav>
