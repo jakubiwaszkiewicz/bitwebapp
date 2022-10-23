@@ -12,9 +12,6 @@
 }
 
 .o-nas--main-container {
-/*    display: flex;
-    align-items: center;
-    justify-content: center;*/
     width: 90%;
     margin: 1rem;
     overflow: hidden;
@@ -32,11 +29,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    flex-flow: column-reverse nowrap;
+}
+
+.o-nas--parag-container p {
+    padding: 1rem 0;
+    border-top: 1px white solid;
+}
+
+.o-nas--content-container h3 {
+    padding: 1rem 0;
+    margin: 0;
+    border-bottom: 1px solid white
 }
 
 .o-nas--parag-container img {
+    padding: 1rem 0;
     width: 100%;
+    max-width: 500px;
 }
 
 .o-nas--btn-cont {
@@ -49,7 +59,6 @@
 .o-nas--btn {
     width: 50px;
     height: 50px;
-    /*border: 1px solid white;*/
     cursor: pointer;
 }
 

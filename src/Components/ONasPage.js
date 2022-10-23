@@ -184,7 +184,7 @@ export default function ONasPage () {
                 </div>
             </div>
             <div className="o-nas--main-container">
-                <div id="o-nas--bit" className="o-nas--content-container" style={styles1}>
+                <div id="o-nas--bit" className="o-nas--content-container o-nas--content-container-text" style={styles1}>
                     <h3>Co to BEST IT FESTIVAL?</h3>
                     <div className="o-nas--parag-container">
                         <p>
@@ -210,7 +210,7 @@ export default function ONasPage () {
                         </div>
                     </div>
                 </div>
-                <div id="o-nas--best" className="o-nas--content-container" style={styles2}>
+                <div id="o-nas--best" className="o-nas--content-container o-nas--content-container-text" style={styles2}>
                     <h3>Co to ten BEST???</h3>
                     <div className="o-nas--parag-container">
                         <p>

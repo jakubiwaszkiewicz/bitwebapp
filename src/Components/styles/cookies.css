@@ -75,10 +75,6 @@
     color: rgb(237, 30, 121);
 }
 
-/*.bar1 {
-    transform: rotateY(-45deg);
-}*/
-
 @keyframes flickerBorderRose {
     0%, 53%, 75% {
         box-shadow:
@@ -88,18 +84,13 @@
                 0 0 0.6rem rgba(237, 30, 121, 4),
                 0 0 1rem rgba(237, 30, 121, 4),
                 0 0 1rem rgba(237, 30, 121, 4),
-                0 0 1rem rgba(237, 30, 121, 4),
-                0 0 2rem rgba(237, 30, 121, 4);
+                0 0 1rem rgba(237, 30, 121, 4);
     }
     34%, 60%, 100% {
         box-shadow:
                 0 0 1.5rem rgba(237, 30, 121, 4),
                 0 0 0.6rem rgba(237, 30, 121, 4),
                 0 0 0.6rem rgba(237, 30, 121, 4),
-                0 0 0.6rem rgba(237, 30, 121, 4),
-                0 0 2rem rgba(237, 30, 121, 4);
-                /*
-                0 0 3rem rgba(237, 30, 121, 4);
-                */
+                0 0 0.6rem rgba(237, 30, 121, 4);
     }
 }

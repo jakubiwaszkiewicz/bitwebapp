@@ -12,7 +12,7 @@
 .footer p {
     font-size: 0.95rem;
     color: rgba(76, 239, 216, 4);
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 
 @keyframes flickerBorderRoseFooter {
@@ -24,16 +24,13 @@
                 0 0 0.6rem rgba(76, 239, 216, 4),
                 0 0 1rem rgba(76, 239, 216, 4),
                 0 0 1rem rgba(76, 239, 216, 4),
-                0 0 1rem rgba(76, 239, 216, 4),
-                0 0 2rem rgba(76, 239, 216, 4);
+                0 0 1rem rgba(76, 239, 216, 4);
     }
     32%, 66%, 100% {
         box-shadow:
                 0 0 1.5rem rgba(76, 239, 216, 4),
                 0 0 0.6rem rgba(76, 239, 216, 4),
                 0 0 0.6rem rgba(76, 239, 216, 4),
-                0 0 0.6rem rgba(76, 239, 216, 4),
-                0 0 2rem rgba(76, 239, 216, 4);
-                /*0 0 3rem rgba(237, 30, 121, 4);*/
+                0 0 0.6rem rgba(76, 239, 216, 4);
     }
 }
