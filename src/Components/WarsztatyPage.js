@@ -25,7 +25,8 @@ export default function WarsztatyPage () {
               zapewnij sobie wejściówkę do świata IT.
             </p>
           <div className="war-content-container">
-            {Datas}
+            {/*{Datas}*/}
+            <h3 className="wkrotce">Już wkrótce!</h3>
           </div>
           </div>
 

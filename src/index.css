@@ -36,6 +36,11 @@ body {
   margin: 0;
 }
 
+.wkrotce {
+  margin: 2rem 0;
+  font-size: 1.35rem;
+}
+
 section {
   width: 100vw;
   max-width: 100%;
