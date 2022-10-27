@@ -54,21 +54,21 @@
 
 .NeonText {
     font-family: "Neoneon", sans-serif;
-    color: rgb(255, 190, 255);
+    color: rgb(255, 227, 242);
 }
 
 .roseNeonText1 {
-    animation: flickerRose1 2s infinite alternate;
+    animation: flickerRoseTitle 1.5s infinite alternate;
 }
 
 .roseNeonText2 {
-    animation: flickerRose2 2s infinite alternate;
+    animation: flickerRoseTitle 1.5s infinite alternate;
 }
 
 .blueNeonText {
-    animation: flickerBlue 2s infinite alternate;
+    animation: flickerBlue 1.7s infinite alternate;
     font-family: "Neoneon", sans-serif;
-    color: rgb(163, 255, 231);
+    color: rgb(208, 255, 241);
 }
 
 .home-neon-button {
@@ -134,43 +134,24 @@
     }
 }
 
-@keyframes flickerRose1 {
+@keyframes flickerRoseTitle {
     0%, 53%, 75% {
         text-shadow:
-            /*0 0 0.3rem #fff,*/
+                0 0 0.4rem #ed1e79,
+                0 0 0.3rem #ed1e79,
                 0 0 1rem #ed1e79,
-                0 0 2rem #ed1e79,
-                0 0 4rem #ed1e79,
-                0 0 8rem #ed1e79,
-                0 0 12rem #ed1e79;
+                0 0 3rem #ed1e79,
+                0 0 5rem #ed1e79,
+                0 0 9rem #ed1e79;
     }
     34%, 60%, 100% {
         text-shadow:
-            /* 0 0 0.3rem #fff,*/
-                0 0 1rem #ed1e79,
+                0 0 0.5rem #ed1e79,
+                0 0 0.4rem #ed1e79,
                 0 0 2rem #ed1e79,
                 0 0 4rem #ed1e79,
-                0 0 8rem #ed1e79;
-    }
-}
-
-@keyframes flickerRose2 {
-    0%, 43%, 85%, 100% {
-        text-shadow:
-            /* 0 0 0.3rem #fff,*/
-                0 0 1rem #ed1e79,
-                0 0 2rem #ed1e79,
-                0 0 4rem #ed1e79,
-                0 0 8rem #ed1e79,
-                0 0 12rem #ed1e79;
-    }
-    24%, 60%, 93% {
-        text-shadow:
-            /* 0 0 0.3rem #fff,*/
-                0 0 1rem #ed1e79,
-                0 0 2rem #ed1e79,
-                0 0 4rem #ed1e79,
-                0 0 8rem #ed1e79;
+                0 0 6rem #ed1e79,
+                0 0 10rem #ed1e79;
     }
 }
 

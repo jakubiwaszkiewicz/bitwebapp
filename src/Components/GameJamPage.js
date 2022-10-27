@@ -36,19 +36,23 @@ export default function GameJamPage () {
                   <div className="row">
                     <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
                     <div className="col-border"></div>
-                    <div className="table-item-right">Koniec zapisów</div>
+                    <div className="table-item-right">Lorem ipsum dolor sit amet</div>
                   </div>
+
+                  <div className="row-border"></div>
 
                   <div className="row">
                     <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
                     <div className="col-border"></div>
-                    <div className="table-item-right">Koniec zapisów</div>
+                    <div className="table-item-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
                   </div>
+
+                  <div className="row-border"></div>
 
                   <div className="row">
                     <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
                     <div className="col-border"></div>
-                    <div className="table-item-right">Koniec zapisów</div>
+                    <div className="table-item-right">Lorem ipsum dolor sit amet, consectetur</div>
                   </div>
                 </div>
               </div>

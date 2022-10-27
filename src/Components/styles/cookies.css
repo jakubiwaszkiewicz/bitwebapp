@@ -9,9 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid rgb(237, 30, 121);
+    border-top: 2px solid rgb(252, 204, 221);
     box-shadow: 0 0 1rem rgb(237, 30, 121);
-    animation: flickerBorderRose 1s infinite alternate;
+    animation: flickerBorderRose 1.5s infinite alternate;
     background-color: black;
 }
 
@@ -78,19 +78,16 @@
 @keyframes flickerBorderRose {
     0%, 53%, 75% {
         box-shadow:
+                0 0 0.2rem rgb(255, 211, 231),
                 0 0 0.4rem rgba(237, 30, 121, 4),
-                0 0 0.4rem rgba(237, 30, 121, 4),
-                0 0 0.4rem rgba(237, 30, 121, 4),
-                0 0 0.6rem rgba(237, 30, 121, 4),
                 0 0 1rem rgba(237, 30, 121, 4),
-                0 0 1rem rgba(237, 30, 121, 4),
-                0 0 1rem rgba(237, 30, 121, 4);
+                0 0 1.5rem rgba(237, 30, 121, 4);
     }
     34%, 60%, 100% {
         box-shadow:
-                0 0 1.5rem rgba(237, 30, 121, 4),
+                0 0 0.3rem rgb(255, 214, 233),
                 0 0 0.6rem rgba(237, 30, 121, 4),
-                0 0 0.6rem rgba(237, 30, 121, 4),
-                0 0 0.6rem rgba(237, 30, 121, 4);
+                0 0 1.3rem rgba(237, 30, 121, 4),
+                0 0 1.6rem rgba(237, 30, 121, 4);
     }
 }
