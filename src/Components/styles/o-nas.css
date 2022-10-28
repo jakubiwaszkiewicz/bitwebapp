@@ -11,6 +11,12 @@
     color: white;
 }
 
+#o-nas h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 0 2rem 0;
+}
+
 .o-nas--main-container {
     width: 90%;
     margin: 1rem;
@@ -98,6 +104,101 @@
     background-color: rgb(237, 30, 121);
     border-radius: 3px;
     transition: box-shadow 0.25s;
+}
+
+
+@media screen and (max-width: 425px) {
+    #o-nas h3 {
+        text-align: center;
+        font-size: 1.75rem;
+        margin: 0 0 2rem 0;
+    }
+    .o-nas--btn-r-bar1 {
+        transform: translateY(15px) rotate(45deg);
+
+    }
+
+    .o-nas--btn-r-bar2 {
+        transform: translateY(30px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar1 {
+        transform: translateY(15px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar2 {
+        transform: translateY(30px) rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .o-nas--btn-r-bar1 {
+        transform: translateY(17px) rotate(45deg);
+
+    }
+
+    .o-nas--btn-r-bar2 {
+        transform: translateY(30px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar1 {
+        transform: translateY(17px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar2 {
+        transform: translateY(30px) rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #o-nas h3 {
+        text-align: center;
+        font-size: 1.75rem;
+        margin: 0 0 2rem 0;
+    }
+    .o-nas--btn-r-bar1 {
+        transform: translateY(15px) rotate(45deg);
+
+    }
+
+    .o-nas--btn-r-bar2 {
+        transform: translateY(30px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar1 {
+        transform: translateY(15px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar2 {
+        transform: translateY(30px) rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .o-nas--btn-r-bar1 {
+        transform: translateY(18px) rotate(45deg);
+
+    }
+
+    .o-nas--btn-r-bar2 {
+        transform: translateY(30px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar1 {
+        transform: translateY(18px) rotate(-45deg);
+
+    }
+
+    .o-nas--btn-l-bar2 {
+        transform: translateY(30px) rotate(45deg);
+    }
 }
 
 @keyframes disappearLeft {

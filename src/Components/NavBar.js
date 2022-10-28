@@ -24,7 +24,7 @@ export default function NavBar () {
               <Nav className="justify-content-end fs-5">
                 <Nav.Link href="#noc-gier">Noc Gier</Nav.Link>
                 <Nav.Link href="#turniej">Turniej</Nav.Link>
-                <Nav.Link href="#game-jam">Game Jam</Nav.Link>
+                <Nav.Link href="#game-jam">BIT Jam</Nav.Link>
                 <Nav.Link href="#warsztaty">Warsztaty</Nav.Link>
                 <Nav.Link href="#o-nas">O nas</Nav.Link>
                 <Nav.Link href="#partnerzy">Partnerzy</Nav.Link>

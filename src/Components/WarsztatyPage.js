@@ -12,25 +12,25 @@ export default function WarsztatyPage () {
       />
     );})
   return (
-    <section id="warsztaty">
-        <div className="war-container">
+      <section id="warsztaty">
+          <div className="war-container">
 
-            {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
-          <h3>Warsztaty</h3>
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
+              <h3>Warsztaty</h3>
 
-          <div className="war-content">
-            <p>
-              Intryguje Cię świat IT? Chcesz nabrać nowych skilli? Jeśli tak, to idealnie trafiłeś!
-              Zapisz się na nasze warsztaty, które organizujemy wspólnie z najlepszymi fachowcami w branży i
-              zapewnij sobie wejściówkę do świata IT.
-            </p>
-          <div className="war-content-container">
-            {/*{Datas}*/}
-            <h3 className="wkrotce">Już wkrótce!</h3>
+              <div className="war-content">
+                 <p>
+                    Intryguje Cię świat IT? Chcesz nabrać nowych skilli? Jeśli tak, to idealnie trafiłeś!
+                    Zapisz się na nasze warsztaty, które organizujemy wspólnie z najlepszymi fachowcami w branży i
+                    zapewnij sobie wejściówkę do świata IT.
+                 </p>
+                 <div className="war-content-container">
+                     {/*{Datas}*/}
+                     <h3 className="wkrotce">Już wkrótce!</h3>
+                 </div>
+              </div>
+
           </div>
-          </div>
-
-        </div>
-    </section>
+      </section>
   )
 }

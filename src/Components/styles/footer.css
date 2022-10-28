@@ -13,6 +13,7 @@
     font-size: 0.95rem;
     color: rgb(225, 225, 225);
     margin: 2rem 0;
+    text-align: center;
 }
 
 @keyframes flickerBorderRoseFooter {
