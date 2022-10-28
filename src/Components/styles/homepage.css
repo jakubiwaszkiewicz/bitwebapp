@@ -95,6 +95,19 @@
 @media screen and (max-width: 400px) {
     .home-neon-button {
         margin-top: 3rem;
+        box-shadow:
+                0 0 0.3rem #f393bf,
+                0 0 0.8rem rgba(237, 30, 121, 5),
+                inset 0 0 0.3rem #f393bf,
+                inset 0 0 0.8rem rgba(237, 30, 121, 5);
+    }
+
+    .home-neon-button:hover{
+        box-shadow:
+                0 0 0.1rem rgba(76, 239, 216, 3),
+                0 0 0.5rem rgba(76, 239, 216, 3),
+                inset 0 0 0.1rem rgba(76, 239, 216, 3),
+                inset 0 0 0.5rem rgba(76, 239, 216, 3);
     }
 }
 @media screen and (max-width: 600px) {
