@@ -1,4 +1,4 @@
-import Vr from "../pictures/vr.webp"
+import Vr from "../pictures/janusz/nocgier.jpg"
 import "./styles/nocgier.css"
 
 export default function NocGierPage () {

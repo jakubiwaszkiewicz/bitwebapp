@@ -1,4 +1,4 @@
-import klawa from "../pictures/turniej.webp";
+import klawa from "../pictures/janusz/turniej.jpg";
 import "./styles/turniej.css"
 
 export default function TurniejPage () {

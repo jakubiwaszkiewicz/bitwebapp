@@ -1,7 +1,7 @@
 import "./styles/o-nas.css"
 import React from "react"
-import bestLogo from "../pictures/logo_best.webp";
-import bitLogo from "../pictures/logo_bit.webp";
+import bestLogo from "../pictures/janusz/bestwroclawkolorowe.jpg";
+import bitLogo from "../pictures/janusz/czerwone.jpg";
 import dataCT from "./dataCT";
 import CardCT from "./CardCT";
 

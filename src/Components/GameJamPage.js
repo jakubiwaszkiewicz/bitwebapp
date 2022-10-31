@@ -1,4 +1,4 @@
-import superhot from "../pictures/superhot.webp";
+import superhot from "../pictures/janusz/superhot.jpg";
 import "./styles/gamejam.css"
 import "./styles/tabela.css"
 
