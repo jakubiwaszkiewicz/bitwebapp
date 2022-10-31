@@ -27,7 +27,7 @@ export default function TurniejPage () {
                 </div>
             </div>
 
-          <div className="game-harmonogram">
+          {/*<div className="game-harmonogram">
             <div className="table">
                 <div className="row">
                     <h3 id="harmonogram-title">Harmonogram turnieju</h3>
@@ -54,7 +54,9 @@ export default function TurniejPage () {
                 <div className="table-item-right">Lorem ipsum dolor sit amet, consectetur</div>
               </div>
             </div>
-          </div>
+          </div>*/}
+
+
         </div>
     </section>
   )

@@ -30,7 +30,7 @@ export default function GameJamPage () {
                       <img src={superhot} alt="ziomek z vrem"></img>
                   </div>
               </div>
-              <div className="game-harmonogram">
+              {/*<div className="game-harmonogram">
                 <div className="table">
                   <div className="row">
                       <h3 id="harmonogram-title">Harmonogram BIT Jama</h3>
@@ -57,7 +57,9 @@ export default function GameJamPage () {
                     <div className="table-item-right">Lorem ipsum dolor sit amet, consectetur</div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
+
+
           </div>
       </section>
   )
