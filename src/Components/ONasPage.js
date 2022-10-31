@@ -1,6 +1,7 @@
 import "./styles/o-nas.css"
 import React from "react"
-import mo from "../pictures/EMOS.png";
+import bestLogo from "../pictures/logo_best.webp";
+import bitLogo from "../pictures/logo_bit.webp";
 import dataCT from "./dataCT";
 import CardCT from "./CardCT";
 
@@ -206,7 +207,7 @@ export default function ONasPage () {
                             procesie tworzenia gry komputerowej.
                         </p>
                         <div>
-                            <img src={mo} alt="cos tam" />
+                            <img src={bitLogo} alt="BEST IT Festival logo" />
                         </div>
                     </div>
                 </div>
@@ -227,7 +228,7 @@ export default function ONasPage () {
                         umiejętności potrzebnych do wykonania swoich zadań podczas pracy w grupie.
                         </p>
                         <div>
-                            <img src={mo} alt="cos tam" />
+                            <img src={bestLogo} alt="BEST Wroclaw logo" />
                         </div>
                     </div>
                 </div>

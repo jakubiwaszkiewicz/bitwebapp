@@ -1,4 +1,4 @@
-import klawa from "../pictures/klawiaturka.jpeg";
+import klawa from "../pictures/turniej.webp";
 import "./styles/turniej.css"
 
 export default function TurniejPage () {
@@ -29,6 +29,9 @@ export default function TurniejPage () {
 
           <div className="game-harmonogram">
             <div className="table">
+                <div className="row">
+                    <h3 id="harmonogram-title">Harmonogram turnieju</h3>
+                </div>
               <div className="row">
                 <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
                 <div className="col-border"></div>

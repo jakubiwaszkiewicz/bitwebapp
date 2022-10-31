@@ -1,4 +1,4 @@
-import mo from "../pictures/EMOS.png";
+import superhot from "../pictures/superhot.webp";
 import "./styles/gamejam.css"
 import "./styles/tabela.css"
 
@@ -27,12 +27,14 @@ export default function GameJamPage () {
                       </div>
                   </div>
                   <div className="game-cont-img">
-                      <img src={mo} alt="ziomek z vrem"></img>
+                      <img src={superhot} alt="ziomek z vrem"></img>
                   </div>
               </div>
-              <h3>Harmonogram Bit Jama</h3>
               <div className="game-harmonogram">
                 <div className="table">
+                  <div className="row">
+                      <h3 id="harmonogram-title">Harmonogram BIT Jama</h3>
+                  </div>
                   <div className="row">
                     <div className="table-item-left"><span className="text-blue">17</span> pażdziernika</div>
                     <div className="col-border"></div>

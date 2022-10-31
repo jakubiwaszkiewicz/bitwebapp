@@ -25,6 +25,13 @@
     text-align: center;
 }
 
+@media screen and (min-width: 1284px) {
+    .cardCT {
+        width: 200px;
+        margin: 1rem;
+    }
+}
+
 @media screen and (max-width: 790px) {
     .cardCT {
         width: 120px;
