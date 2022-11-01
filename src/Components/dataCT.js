@@ -84,7 +84,7 @@ export default [
     {
         id: 9,
         name: "Jagoda Wierzbińska",
-        title: "Członkini Zespołu",
+        title: "Przedstawicielka Zarządu",
         shortTitle: "Angel",
         description: "",
         img: "./core-team/jagoda_wierzbinska.jpg",
@@ -94,7 +94,7 @@ export default [
     {
         id: 10,
         name: "Michał Ślimak",
-        title: "Członek Zespołu",
+        title: "Przedstawiciel Zarządu",
         shortTitle: "Angel",
         description: "",
         img: "./core-team/michal_slimak.jpg",

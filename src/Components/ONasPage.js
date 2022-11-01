@@ -245,6 +245,7 @@ export default function ONasPage () {
                         <div className="o-nas--btn-bar-r o-nas--btn-r-bar2"></div>
                     </div>
                 </div>
+            {/*przycisk z lewej strony jest troche gorzej ułożony niż ten z prawej (kurwa nie mam pojęcia czemu XD)*/}
         </section>
     )
 }
