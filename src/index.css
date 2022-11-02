@@ -45,4 +45,14 @@ section {
   width: 100vw;
   max-width: 100%;
   padding-top: 12rem;
+  animation: baseAnimation 1s ease-in alternate;
+}
+
+@keyframes baseAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }

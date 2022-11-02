@@ -1,32 +1,59 @@
-import NavBar from "./Components/NavBar"
-import HomePage from "./Components/HomePage";
-import NocGierPage from "./Components/NocGierPage";
-import TurniejPage from "./Components/TurniejPage";
-import GameJamPage from "./Components/GameJamPage";
-import WarsztatyPage from "./Components/WarsztatyPage";
-import HarmonogramPage from "./Components/HarmonogramPage";
-import ONasPage from "./Components/ONasPage";
-import PartnerzyPage from "./Components/PartnerzyPage";
+/*import NavBar from "./Components/NavBar"*/
 import CookiesPopUp from "./Components/CookiesPopUp";
-import Footer from "./Components/Footer"
-
-
+import MainContent from "./Components/MainContent";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Logo from "./pictures/logo.png";
+import Nav from "react-bootstrap/Nav";
+import './Components/styles/navbar.css';
+import React from "react";
 
 function App() {
 
+
+
+    let [count,setCount] = React.useState(0)
+
+    const prevCountRef = React.useRef();
+
+    React.useEffect(() => {
+        //assign the ref's current value to the count Hook
+        prevCountRef.current = count;
+    }, [count]);
+
       return (
             <div className="app">
-                  <NavBar/>
-                  <HomePage/>
-                  <CookiesPopUp/>
-                  <NocGierPage/>
-                  <TurniejPage/>
-                  <GameJamPage/>
-                  <WarsztatyPage/>
-                  {/*<HarmonogramPage/>*/}
-                  <ONasPage/>
-                  <PartnerzyPage/>
-                  <Footer/>
+                <nav id="nav-bar">
+                    <Navbar bg="black" expand="lg" fixed="top" variant="dark">
+                        <Container>
+                            <Nav.Link onClick={() => setCount(0)}>
+                                <img
+                                    src={Logo}
+                                    width="auto"
+                                    height="50"
+                                    className="d-inline-block align-top"
+                                    alt="React Bootstrap logo"
+                                />
+                            </Nav.Link>
+                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                                <Nav className="justify-content-end fs-5">
+                                    <Nav.Link onClick={() => setCount(1)}>Noc Gier</Nav.Link>
+                                    <Nav.Link onClick={() => setCount(2)}>Turniej</Nav.Link>
+                                    <Nav.Link onClick={() => setCount(3)}>BIT Jam</Nav.Link>
+                                    <Nav.Link onClick={() => setCount(4)}>Warsztaty</Nav.Link>
+                                    <Nav.Link onClick={() => setCount(5)}>O nas</Nav.Link>
+                                    <Nav.Link onClick={() => setCount(6)}>Partnerzy</Nav.Link>
+                                </Nav>
+                            </Navbar.Collapse>
+                        </Container>
+                    </Navbar>
+                </nav>
+                <MainContent
+                    count = {count}
+                    prevCount = {prevCountRef.current}
+                />
+                <CookiesPopUp/>
             </div>
       );
 }
