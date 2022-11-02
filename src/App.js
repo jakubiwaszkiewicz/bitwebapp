@@ -2,6 +2,7 @@
 import CookiesPopUp from "./Components/CookiesPopUp";
 import MainContent from "./Components/MainContent";
 import Navbar from "react-bootstrap/Navbar";
+import Footer from "./Components/Footer"
 import Container from "react-bootstrap/Container";
 import Logo from "./pictures/logo.png";
 import Nav from "react-bootstrap/Nav";
@@ -59,6 +60,7 @@ function App() {
                     <MainContent
                         count = {count}
                     />
+                    <Footer/>
                     {!cookiesClicked && <CookiesPopUp/>}
                 </div>
           );

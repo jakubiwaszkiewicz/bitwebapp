@@ -1,6 +1,5 @@
 import "./styles/partnerzy.css"
 import LOGO1 from "../pictures/logo1.png"
-import Footer from "./Footer";
 
 export default function PartnerzyPage () {
   return (
@@ -36,7 +35,6 @@ export default function PartnerzyPage () {
                 <img src={LOGO1} alt="cos tam" />
             </div>
         </div>
-        <Footer/>
     </section>
   )
 }
