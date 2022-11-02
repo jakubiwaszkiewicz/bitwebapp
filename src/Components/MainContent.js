@@ -42,16 +42,7 @@ export default function MainContent ({count}) {
     }
     return (
         <main id="main">
-            {/*{page}*/}
             {page}
-            {/*<HomePage/>
-            <NocGierPage/>
-            <TurniejPage/>
-            <GameJamPage/>
-            <WarsztatyPage/>
-            <HarmonogramPage/>
-            <ONasPage/>
-            <PartnerzyPage/>*/}
         </main>
     )
 }

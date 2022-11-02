@@ -6,15 +6,13 @@ import Container from "react-bootstrap/Container";
 import Logo from "./pictures/logo.png";
 import Nav from "react-bootstrap/Nav";
 import './Components/styles/navbar.css';
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useRef} from "react";
 
 function App() {
 
-
-    const [cookiesClicked, setCookiesClicked] = React.useState(true);
-    const [count,setCount] = React.useState(0)
-
-    const prevCountRef = React.useRef();
+    const [cookiesClicked, setCookiesClicked] = useState(true);
+    const [count,setCount] = useState(0)
+    const prevCountRef = useRef();
 
     useEffect(() => {
       if(document.cookie) {
@@ -23,7 +21,7 @@ function App() {
       }
     }, [setCookiesClicked])
 
-    React.useEffect(() => {
+    useEffect(() => {
         //assign the ref's current value to the count Hook
         prevCountRef.current = count;
     }, [count]);
