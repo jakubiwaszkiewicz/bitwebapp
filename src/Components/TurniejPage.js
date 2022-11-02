@@ -7,7 +7,7 @@ export default function TurniejPage () {
         <div className="tur-container appear">
             <div className="tur-content-cont">
                 <div className="tur-cont-img">
-                    <img src={klawa} alt="ziomek z vrem"></img>
+                    <img src={klawa} alt="Turniej League of Legends."></img>
                 </div>
                 <div className="tur-cont-cont">
                     <h3>Turniej League of Legends</h3>

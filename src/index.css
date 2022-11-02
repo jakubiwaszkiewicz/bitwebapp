@@ -37,7 +37,7 @@ body {
 }
 
 .wkrotce {
-  margin: 2rem 0;
+  margin: 4rem 0 2rem;
   font-size: 1.35rem;
 }
 
@@ -47,6 +47,9 @@ section {
 }
 
 
+.padding-section {
+  padding-top: 66px;
+}
 
 .appear {
   animation: baseAnimation 500ms ease-in;

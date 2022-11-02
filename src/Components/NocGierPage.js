@@ -32,7 +32,7 @@ export default function NocGierPage () {
                     </div>
                 </div>
                 <div className="noc-cont-img">
-                  <img src={Vr} alt="ziomek z vrem"></img>
+                  <img src={Vr} alt="Uczestnik Nocy Gier BITa w 2019 roku."></img>
                 </div>
             </div>
           <hr className="line"/>

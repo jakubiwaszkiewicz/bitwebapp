@@ -13,7 +13,7 @@ export default function WarsztatyPage () {
     );})
   return (
       <section id="warsztaty">
-          <div className="war-container appear">
+          <div className="war-container appear padding-section">
 
               {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h3>Warsztaty</h3>
@@ -25,7 +25,7 @@ export default function WarsztatyPage () {
                     zapewnij sobie wejściówkę do świata IT.
                  </p>
                  <div className="war-content-container">
-                     {/*{Datas}*/}
+                     {Datas}
                      <h3 className="wkrotce">Już wkrótce!</h3>
                  </div>
               </div>

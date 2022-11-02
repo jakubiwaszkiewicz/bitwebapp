@@ -27,7 +27,7 @@ export default function GameJamPage () {
                       </div>
                   </div>
                   <div className="game-cont-img">
-                      <img src={superhot} alt="ziomek z vrem"></img>
+                      <img src={superhot} alt="Polska gra SUPERHOT stworzona na jednm z Game Jamów."></img>
                   </div>
               </div>
               {/*<div className="game-harmonogram">
