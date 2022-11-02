@@ -1,6 +1,7 @@
 import superhot from "../pictures/janusz/superhot.jpg";
 import "./styles/gamejam.css"
 import "./styles/tabela.css"
+import "./styles/button.css"
 
 export default function GameJamPage () {
   return (
@@ -21,9 +22,9 @@ export default function GameJamPage () {
                           </p>
                       </div>
                       <div className="game-cont-btn">
-                          <div><button className="neon-button-blue">Regulamin</button></div>
-                          <div><button className="neon-button-blue">Kup bilet</button></div>
-                          <div><button className="neon-button-blue">Discord</button></div>
+                        <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Regulamin</div></a>
+                        <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Kup bilet</div></a>
+                        <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Discord</div></a>
                       </div>
                   </div>
                   <div className="game-cont-img">
