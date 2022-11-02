@@ -22,9 +22,9 @@ export default function GameJamPage () {
                           </p>
                       </div>
                       <div className="game-cont-btn">
-                        <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Regulamin</div></a>
-                        <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Kup bilet</div></a>
-                        <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Discord</div></a>
+                        <a className="a-button" href="#" target="_blank"><div className="blue-neon-button">Regulamin</div></a>
+                        <a className="a-button" href="#" target="_blank"><div className="blue-neon-button">Kup bilet</div></a>
+                        <a className="a-button" href="#" target="_blank"><div className="blue-neon-button">Discord</div></a>
                       </div>
                   </div>
                   <div className="game-cont-img">
