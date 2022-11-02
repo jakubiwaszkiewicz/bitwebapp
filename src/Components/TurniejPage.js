@@ -1,5 +1,6 @@
 import klawa from "../pictures/janusz/turniej.jpg";
 import "./styles/turniej.css"
+import "./styles/button.css"
 
 export default function TurniejPage () {
   return (
@@ -21,8 +22,8 @@ export default function TurniejPage () {
                         </p>
                     </div>
                     <div className="tur-cont-btn">
-                        <div><button className="neon-button-rose"><a href="#">Regulamin</a></button></div>
-                        <div><button className="neon-button-rose"><a href="#">Stream</a></button></div>
+                      <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Regulamin</div></a>
+                      <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Stream</div></a>
                     </div>
                 </div>
             </div>

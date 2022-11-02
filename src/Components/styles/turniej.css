@@ -52,39 +52,6 @@
     gap: 2rem;
 }
 
-.neon-button-rose {
-    background: none;
-    color: white;
-    font-size: 1.25rem;
-    border: #ffd9eb solid 2px;
-    border-radius: 2rem;
-    box-shadow:
-            0 0 0.3rem #f393bf,
-            0 0 0.8rem rgba(237, 30, 121, 5),
-            0 0 1.5rem rgba(237, 30, 121, 15),
-            inset 0 0 0.3rem #f393bf,
-            inset 0 0 0.8rem rgba(237, 30, 121, 5),
-            inset 0 0 1.5rem rgba(237, 30, 121, 15);
-    padding: 1rem;
-    transition: box-shadow 0.5s ease-out;
-    width: 10rem;
-}
-
-.neon-button-rose:hover{
-    border: rgb(212, 252, 244) solid 2px;
-    box-shadow:
-            0 0 0.1rem rgba(76, 239, 216, 3),
-            0 0 0.5rem rgba(76, 239, 216, 3),
-            0 0 1rem rgba(76, 239, 216, 7),
-            inset 0 0 0.1rem rgba(76, 239, 216, 3),
-            inset 0 0 0.5rem rgba(76, 239, 216, 3),
-            inset 0 0 1rem rgba(76, 239, 216, 7);
-}
-
-.neon-button-rose a{
-    color: #ffffff;
-}
-
 .tur-cont-text {
     border: rgba(237, 30, 121, 5) solid 2px;
     padding: 1rem;
@@ -137,10 +104,7 @@
     animation: flickerBluePhoto 1s infinite alternate;
     border-radius: 0.3rem;
 }
-button a {
-    color: white;
-    text-decoration: none;
-}
+
 .tur-cont-img img {
     width: 100%;
     border-radius: 0.3rem;
@@ -150,9 +114,6 @@ button a {
     font-size: 2rem;
 }
 @media screen and (max-width: 400px) {
-    .neon-button {
-        margin-top: 3rem;
-    }
     p {
         font-size: 0.9rem;
     }
@@ -162,7 +123,7 @@ button a {
 }
 
 @media screen and (max-width: 1300px) {
-    .tur-cont-btn .neon-button-rose {
+    .tur-cont-btn {
         width: 7.5rem;
         font-size: 1rem;
         padding: 0.75rem;
@@ -170,7 +131,7 @@ button a {
 }
 
 @media screen and (max-width: 1000px) {
-    .tur-cont-btn .neon-button-rose {
+    .tur-cont-btn {
         width: 10rem;
         font-size: 1.25rem;
         padding: 1rem;
@@ -187,7 +148,7 @@ button a {
 }
 
 @media screen and (max-width: 650px) {
-    .tur-cont-btn .neon-button-rose {
+    .tur-cont-btn {
         width: 6rem;
         font-size: 1rem;
         padding: 0.5rem;
