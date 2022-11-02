@@ -5,7 +5,7 @@ import "./styles/tabela.css"
 export default function GameJamPage () {
   return (
       <section id="game-jam">
-          <div className="game-container">
+          <div className="game-container appear">
               <div className="game-content-cont">
                   <div className="game-cont-cont">
                       <h3>BIT Jam</h3>

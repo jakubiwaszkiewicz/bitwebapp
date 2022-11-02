@@ -20,6 +20,8 @@
     width: 90%;
     margin: 1rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .o-nas--content-container {

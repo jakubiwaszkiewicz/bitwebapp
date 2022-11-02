@@ -4,7 +4,7 @@ import "./styles/turniej.css"
 export default function TurniejPage () {
   return (
     <section id="turniej">
-        <div className="tur-container">
+        <div className="tur-container appear">
             <div className="tur-content-cont">
                 <div className="tur-cont-img">
                     <img src={klawa} alt="ziomek z vrem"></img>

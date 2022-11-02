@@ -3,6 +3,8 @@ import "./styles/cookies.css"
 export default function CookiesPopUp () {
   function clickHandler () {
     document.getElementById("cookies").classList.toggle("clicked")
+      document.cookie = "accepted";
+    console.log('ustaww', document.cookie);
   }
   return (
     <div id="cookies">

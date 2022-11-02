@@ -13,7 +13,7 @@ export default function WarsztatyPage () {
     );})
   return (
       <section id="warsztaty">
-          <div className="war-container">
+          <div className="war-container appear">
 
               {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h3>Warsztaty</h3>

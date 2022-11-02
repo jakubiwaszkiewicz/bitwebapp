@@ -1,33 +1,23 @@
 import React from "react";
-import { Transition } from 'react-transition-group';
-import styles from './styles/maincontent.css'
+import './styles/maincontent.css'
 
-import classNames from 'classnames';
+
 import HomePage from "./HomePage";
 import NocGierPage from "./NocGierPage";
 import TurniejPage from "./TurniejPage";
 import GameJamPage from "./GameJamPage";
 import WarsztatyPage from "./WarsztatyPage";
-/*import HarmonogramPage from "./HarmonogramPage";*/
 import ONasPage from "./ONasPage";
 import PartnerzyPage from "./PartnerzyPage";
 
 
 
-export default function MainContent (props) {
-
-
+export default function MainContent ({count}) {
 
     let page
-    /*function checker () {
-        if (props.prevCount) {
-        }
-    }*/
-
-
 
     // eslint-disable-next-line default-case
-    switch (props.count) {
+    switch (count) {
         case 0:
             page = <HomePage/>
             break;
@@ -51,7 +41,7 @@ export default function MainContent (props) {
             break;
     }
     return (
-        <main>
+        <main id="main">
             {/*{page}*/}
             {page}
             {/*<HomePage/>

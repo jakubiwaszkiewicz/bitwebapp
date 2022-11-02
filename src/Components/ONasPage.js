@@ -178,13 +178,13 @@ export default function ONasPage () {
 
     return (
         <section id="o-nas">
-            <div className="o-nas--btn-l-container o-nas--btn-cont">
+            <div className="o-nas--btn-l-container o-nas--btn-cont appear">
                 <div className="o-nas--btn" onClick={subtract}>
                     <div className="o-nas--btn-bar-l o-nas--btn-l-bar1"></div>
                     <div className="o-nas--btn-bar-l o-nas--btn-l-bar2"></div>
                 </div>
             </div>
-            <div className="o-nas--main-container">
+            <div className="o-nas--main-container appear">
                 <div id="o-nas--bit" className="o-nas--content-container o-nas--content-container-text" style={styles1}>
                     <h3>Co to BEST IT FESTIVAL?</h3>
                     <div className="o-nas--parag-container">

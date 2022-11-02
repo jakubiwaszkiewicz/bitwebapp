@@ -4,7 +4,7 @@ import "./styles/nocgier.css"
 export default function NocGierPage () {
   return (
     <section id="noc-gier">
-        <div className="noc-container">
+        <div className="noc-container appear">
             <div className="noc-content-cont">
                 <div className="noc-title-cont">
                 <h3>Noc Gier</h3>
