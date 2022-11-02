@@ -20,7 +20,7 @@ export default function WarsztatyPage () {
 
               <div className="war-content">
                  <p>
-                    Intryguje Cię świat IT? Chcesz nabrać nowych skilli? Jeśli tak, to idealnie trafiłeś!
+                    Intryguje Cię świat IT? Chcesz nabrać nowych skilli? Jeśli tak, to idealnie trafiłeś{/*gender neutral*/}!
                     Zapisz się na nasze warsztaty, które organizujemy wspólnie z najlepszymi fachowcami w branży i
                     zapewnij sobie wejściówkę do świata IT.
                  </p>
