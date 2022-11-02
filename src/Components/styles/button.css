@@ -28,6 +28,36 @@
             inset 0 0 1rem rgba(76, 239, 216, 7);
 }
 
+.blue-neon-button {
+    background: none;
+    min-width: 10rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.25rem;
+    border: #ffd9eb solid 2px;
+    border-radius: 2rem;
+    box-shadow:
+            0 0 0.1rem rgba(76, 239, 216, 3),
+            0 0 0.5rem rgba(76, 239, 216, 3),
+            0 0 1rem rgba(76, 239, 216, 7),
+            inset 0 0 0.1rem rgba(76, 239, 216, 3),
+            inset 0 0 0.5rem rgba(76, 239, 216, 3),
+            inset 0 0 1rem rgba(76, 239, 216, 7);
+    padding: 1rem;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.blue-neon-button:hover{
+    border: rgb(212, 252, 244) solid 2px;
+    box-shadow:
+            0 0 0.3rem #f393bf,
+            0 0 0.8rem rgba(237, 30, 121, 5),
+            0 0 1.5rem rgba(237, 30, 121, 15),
+            inset 0 0 0.3rem #f393bf,
+            inset 0 0 0.8rem rgba(237, 30, 121, 5),
+            inset 0 0 1.5rem rgba(237, 30, 121, 15);
+}
+
 .a-button {
     color: white;
     text-decoration: none;
