@@ -11,6 +11,7 @@
     text-align: center;
     font-size: 7rem;
 }
+
 @media screen and (max-width: 600px) {
     .home-title {
         font-size: 5rem;
@@ -23,7 +24,6 @@
     .home-content {
         gap: 4rem;
     }
-
 }
 
 .text {
@@ -40,7 +40,6 @@
     .text {
         font-size: 2rem;
     }
-
 }
 
 #home {
@@ -88,8 +87,13 @@
     padding: 1rem;
     transition: box-shadow 0.5s ease-out;
 }
+
 .home-neon-button a {
     color: white;
+}
+
+.text-homepage1 {
+    margin-bottom: 0;
 }
 
 @keyframes flickerBlue {
@@ -102,6 +106,7 @@
                 0 0 8rem #4CEFD8,
                 0 0 15rem #4CEFD8;
     }
+
     0%, 70%, 100% {
         text-shadow:
             /*0 0 0.3rem #fff,*/
@@ -121,6 +126,7 @@
                 0 0 5rem #ed1e79,
                 0 0 9rem #ed1e79;
     }
+
     34%, 60%, 100% {
         text-shadow:
                 0 0 0.5rem #ed1e79,

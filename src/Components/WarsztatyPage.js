@@ -26,7 +26,7 @@ export default function WarsztatyPage () {
                  </p>
                  <div className="war-content-container">
                      {Datas}
-                     <h3 className="wkrotce">Już wkrótce!</h3>
+                     {/*<h3 className="wkrotce">Już wkrótce!</h3>*/}
                  </div>
               </div>
 

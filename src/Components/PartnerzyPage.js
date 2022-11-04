@@ -34,14 +34,8 @@ export default function PartnerzyPage () {
                 <img src={LOGO1} alt="cos tam" />
                 <img src={LOGO1} alt="cos tam" />
             </div>
+            {/*<h3 className="wkrotce">Już wkrótce!</h3>*/}
         </div>
     </section>
   )
 }
-/* /////
-    PROPSY
-    ale raczej bym zzrezygnował z propsów, dużo jebania a teraz już to dobrze wygląda,
-    full responsywne kwadraty które
-    zawsze się mieszczą przez margin co myślisz ??
-    /////// @młodzierzy //////
-///// */

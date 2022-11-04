@@ -1,9 +1,11 @@
 .content-card {
     width: 100%;
     display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     border: 1px solid white;
     padding: 10px;
-    text-align: justify;
+    /*text-align: justify;*/
     margin: 1rem 0;
 }
 
@@ -11,6 +13,21 @@
     border: rgb(237, 30, 121) solid 2px;
     padding: 1rem;
     position: relative;
+}
+
+.content-card .a-button {
+    max-width: 100px;
+    min-height: 50px;
+}
+.content-card .a-button .rose-neon-button{
+    max-width: 100px;
+    min-height: 50px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.content-card .a-button .rose-neon-button span{
+    margin: 0 auto;
 }
 
 .content-card div {
@@ -37,6 +54,7 @@
 
 .content-card div p {
     margin: auto 0;
+    vertical-align: text-bottom;
 }
 
 .content-card::before,
@@ -68,7 +86,21 @@
     .content-card div {
         flex-flow: column-reverse;
         align-items: center;
+        justify-content: center;
         margin: 0;
+    }
+    .content-card .a-button {
+        max-width: 160px;
+        min-height: 50px;
+    }
+    .content-card .a-button .rose-neon-button{
+        max-width: 100px;
+        min-height: 50px;
+        padding: 10px;
+    }
+
+    .content-card .a-button .rose-neon-button span{
+        margin: 0 auto;
     }
     .content-card div img {
         width: 100px;
@@ -77,8 +109,7 @@
         border-left: none;
     }
     .content-card div p {
-        padding: 1rem 0;
-        padding-right: 1rem;
+        padding: 1rem 1rem 0 0;
         border-top: 1px solid rgb(237, 30, 121);
         border-right: none;
     }

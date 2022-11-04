@@ -14,6 +14,7 @@
     align-items: center;
     gap: 2rem;
 }
+
 .game-title h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -23,6 +24,7 @@
     text-shadow: 0 0 0.5rem rgb(76, 239, 216);
     margin: 0;
 }
+
 #game-jam h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -85,8 +87,7 @@
     z-index: 5;
 }
 
-.game-cont-text::before,
-.game-cont-text::after {
+.game-cont-text::before, .game-cont-text::after {
     content: '';
     position: absolute;
     background: #000;
@@ -155,7 +156,6 @@
     .game-cont-cont{
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 650px) {

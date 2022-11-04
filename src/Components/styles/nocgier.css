@@ -60,12 +60,10 @@
     z-index: 5;
 }
 
-.noc-cont-text::before,
-.noc-cont-text::after {
+.noc-cont-text::before, .noc-cont-text::after {
     content: '';
     position: absolute;
     background: #000;
-
 }
 
 .noc-cont-text::before {
@@ -75,7 +73,6 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-
 }
 
 .noc-cont-text::after {
@@ -118,7 +115,6 @@
                 0 0 0.2rem rgba(237, 30, 121, 4),
                 0 0 0.6rem rgba(237, 30, 121, 2);
     }
-
 }
 
 .noc-list {
@@ -141,9 +137,11 @@ hr.line {
     .neon-button {
         margin-top: 3rem;
     }
+
     p {
         font-size: 0.9rem;
     }
+
     button a {
         font-size: 0.9rem
     }
@@ -171,6 +169,7 @@ hr.line {
     .noc-cont-text {
         width: 100%;
     }
+
     .noc-title-cont {
         width: 100%;
         padding: 1rem;
