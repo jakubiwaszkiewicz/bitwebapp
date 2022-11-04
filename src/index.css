@@ -53,7 +53,7 @@ section {
 }
 
 .appear {
-  animation: baseAnimation 500ms ease-in;
+  animation: baseAnimation 702ms ease-in-out;
 }
 
 

@@ -11,7 +11,6 @@ import ONasPage from "./ONasPage";
 import PartnerzyPage from "./PartnerzyPage";
 
 
-
 export default function MainContent ({count}) {
 
     let page
