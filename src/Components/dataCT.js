@@ -33,7 +33,7 @@ export default [
     {
         id: 4,
         name: "Julia Gacal",
-        title: "Koordynator ds. Kontaktu z Firmami",
+        title: "Koordynatorka ds. Kontaktu z Firmami",
         shortTitle: "FR",
         description: "",
         img: "./core-team/julia_gacal.jpg",
@@ -44,7 +44,7 @@ export default [
     {
         id: 5,
         name: "Karolina Badowska",
-        title: "Koordynator ds. Promocji",
+        title: "Koordynatorka ds. Promocji",
         shortTitle: "PR",
         description: "",
         img: "./core-team/karolina_badowska.jpg",
@@ -54,7 +54,7 @@ export default [
     {
         id: 6,
         name: "Aleksandra Grochowska",
-        title: "Koordynator ds. Logistyki",
+        title: "Koordynatorka ds. Logistyki",
         shortTitle: "LG",
         description: "",
         img: "./core-team/aleksandra_grochowska.jpg",

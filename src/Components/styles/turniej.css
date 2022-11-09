@@ -107,12 +107,14 @@
     width: 47%;
     border: rgb(133, 228, 214) solid 2px;
     animation: flickerBluePhoto 1s infinite alternate;
+    /*
     border-radius: 0.3rem;
+    */
 }
 
 .tur-cont-img img {
     width: 100%;
-    border-radius: 0.3rem;
+    /*border-radius: 0.3rem;*/
 }
 #turniej .row h3 {
     color: #acacac;

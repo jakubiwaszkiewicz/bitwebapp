@@ -88,13 +88,15 @@
     width: 47%;
     border: #d91969 solid 2px;
     animation: flickerRose 1s infinite alternate;
+    /*
     border-radius: 0.3rem;
+    */
 
 }
 
 .noc-cont-img img {
     width: 100%;
-    border-radius: 0.3rem;
+    /*border-radius: 0.3rem;*/
 }
 
 @media screen and (max-width: 400px) {
